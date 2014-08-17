@@ -1,0 +1,1721 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-autoprefixer',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.0.0-alpha-5
+3 info using node@v0.10.26
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json llwebfront@0.0.0 No description
+6 warn package.json llwebfront@0.0.0 No repository field.
+7 warn package.json llwebfront@0.0.0 No README data
+8 warn package.json karma-phantomjs-launcher@0.1.4 No README data
+9 verbose readDependencies using package.json deps
+10 verbose cache add [ 'grunt-autoprefixer', null ]
+11 verbose cache add spec="grunt-autoprefixer" args=["grunt-autoprefixer",null]
+12 verbose parsed spec { raw: 'grunt-autoprefixer',
+12 verbose parsed spec   scope: null,
+12 verbose parsed spec   name: 'grunt-autoprefixer',
+12 verbose parsed spec   rawSpec: '',
+12 verbose parsed spec   spec: '*',
+12 verbose parsed spec   type: 'range' }
+13 verbose addNamed [ 'grunt-autoprefixer', '*' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile ad1a3c41-grunt-autoprefixer grunt-autoprefixer@*
+16 verbose lock grunt-autoprefixer@* /Users/kdesai/.npm/ad1a3c41-grunt-autoprefixer.lock
+17 silly addNameRange { name: 'grunt-autoprefixer', range: '*', hasData: false }
+18 verbose mapToRegistry name grunt-autoprefixer
+19 verbose mapToRegistry uri https://registry.npmjs.org/grunt-autoprefixer
+20 verbose request where is /grunt-autoprefixer
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id b0cebcb99cc21e03
+23 verbose request url raw /grunt-autoprefixer
+24 verbose request url resolving [ 'https://registry.npmjs.org/', './grunt-autoprefixer' ]
+25 verbose request url resolved https://registry.npmjs.org/grunt-autoprefixer
+26 verbose request where is https://registry.npmjs.org/grunt-autoprefixer
+27 verbose request no basic auth needed
+28 info trying registry request attempt 1 at 15:03:59
+29 verbose etag "BAERVM8QF1GJK25L6KYK2EXDZ"
+30 http GET https://registry.npmjs.org/grunt-autoprefixer
+31 http 304 https://registry.npmjs.org/grunt-autoprefixer
+32 silly registry.get cb [ 304,
+32 silly registry.get   { date: 'Sun, 17 Aug 2014 05:03:58 GMT',
+32 silly registry.get     server: 'Apache',
+32 silly registry.get     via: '1.1 varnish',
+32 silly registry.get     'last-modified': 'Sun, 17 Aug 2014 05:03:15 GMT',
+32 silly registry.get     'cache-control': 'max-age=60',
+32 silly registry.get     etag: '"BAERVM8QF1GJK25L6KYK2EXDZ"',
+32 silly registry.get     'x-served-by': 'cache-syd1620-SYD',
+32 silly registry.get     'x-cache': 'HIT',
+32 silly registry.get     'x-cache-hits': '2',
+32 silly registry.get     'x-timer': 'S1408251838.148294,VS0,VE0',
+32 silly registry.get     vary: 'Accept',
+32 silly registry.get     'content-length': '0',
+32 silly registry.get     'keep-alive': 'timeout=10, max=50',
+32 silly registry.get     connection: 'Keep-Alive' } ]
+33 verbose etag https://registry.npmjs.org/grunt-autoprefixer from cache
+34 silly addNameRange number 2 { name: 'grunt-autoprefixer', range: '*', hasData: true }
+35 silly addNameRange versions [ 'grunt-autoprefixer',
+35 silly addNameRange   [ '0.1.0',
+35 silly addNameRange     '0.1.20130424',
+35 silly addNameRange     '0.1.20130516',
+35 silly addNameRange     '0.1.20130615',
+35 silly addNameRange     '0.2.0',
+35 silly addNameRange     '0.2.20130718',
+35 silly addNameRange     '0.2.20130806',
+35 silly addNameRange     '0.3.0',
+35 silly addNameRange     '0.3.1',
+35 silly addNameRange     '0.4.0',
+35 silly addNameRange     '0.4.1',
+35 silly addNameRange     '0.4.2',
+35 silly addNameRange     '0.5.0',
+35 silly addNameRange     '0.6.0',
+35 silly addNameRange     '0.6.1',
+35 silly addNameRange     '0.6.2',
+35 silly addNameRange     '0.6.3',
+35 silly addNameRange     '0.6.4',
+35 silly addNameRange     '0.6.5',
+35 silly addNameRange     '0.7.0',
+35 silly addNameRange     '0.7.1',
+35 silly addNameRange     '0.7.2',
+35 silly addNameRange     '0.7.3',
+35 silly addNameRange     '0.7.4',
+35 silly addNameRange     '0.7.5',
+35 silly addNameRange     '0.7.6',
+35 silly addNameRange     '0.8.0',
+35 silly addNameRange     '0.8.1',
+35 silly addNameRange     '0.8.2',
+35 silly addNameRange     '1.0.0' ] ]
+36 verbose addNamed [ 'grunt-autoprefixer', '1.0.0' ]
+37 verbose addNamed [ '1.0.0', '1.0.0' ]
+38 silly lockFile a000a2da-grunt-autoprefixer-1-0-0 grunt-autoprefixer@1.0.0
+39 verbose lock grunt-autoprefixer@1.0.0 /Users/kdesai/.npm/a000a2da-grunt-autoprefixer-1-0-0.lock
+40 silly lockFile a000a2da-grunt-autoprefixer-1-0-0 grunt-autoprefixer@1.0.0
+41 silly lockFile a000a2da-grunt-autoprefixer-1-0-0 grunt-autoprefixer@1.0.0
+42 silly lockFile ad1a3c41-grunt-autoprefixer grunt-autoprefixer@*
+43 silly lockFile ad1a3c41-grunt-autoprefixer grunt-autoprefixer@*
+44 silly resolved [ { name: 'grunt-autoprefixer',
+44 silly resolved     version: '1.0.0',
+44 silly resolved     description: 'Parse CSS and add vendor-prefixed CSS properties using the Can I Use database. Based on Autoprefixer.',
+44 silly resolved     author: { name: 'Dmitry Nikitenko', email: 'dima.nikitenko@gmail.com' },
+44 silly resolved     repository:
+44 silly resolved      { type: 'git',
+44 silly resolved        url: 'https://github.com/nDmitry/grunt-autoprefixer' },
+44 silly resolved     license: 'MIT',
+44 silly resolved     engines: { node: '>= 0.10.0' },
+44 silly resolved     scripts: { test: 'grunt test' },
+44 silly resolved     keywords: [ 'gruntplugin', 'css', 'postprocessor', 'prefix', 'autoprefixer' ],
+44 silly resolved     files: [ 'tasks', 'LICENSE' ],
+44 silly resolved     dependencies: { autoprefixer: '^2.1.0', diff: '~1.0.8', chalk: '~0.5.0' },
+44 silly resolved     devDependencies:
+44 silly resolved      { grunt: '~0.4.4',
+44 silly resolved        'grunt-contrib-jshint': '~0.10.0',
+44 silly resolved        'grunt-contrib-clean': '~0.6.0',
+44 silly resolved        'grunt-contrib-nodeunit': '~0.4.0',
+44 silly resolved        'grunt-contrib-copy': '~0.5.0',
+44 silly resolved        'load-grunt-tasks': '~0.6.0',
+44 silly resolved        'time-grunt': '~0.4.0' },
+44 silly resolved     peerDependencies: { grunt: '~0.4.2' },
+44 silly resolved     gitHead: '475d37111c32e48b58eb3a966173a64a90601560',
+44 silly resolved     bugs: { url: 'https://github.com/nDmitry/grunt-autoprefixer/issues' },
+44 silly resolved     homepage: 'https://github.com/nDmitry/grunt-autoprefixer',
+44 silly resolved     _id: 'grunt-autoprefixer@1.0.0',
+44 silly resolved     _shasum: '81d5d03872a8f645e93dd4c4f256ae0661633116',
+44 silly resolved     _from: 'grunt-autoprefixer@*',
+44 silly resolved     _npmVersion: '1.4.23',
+44 silly resolved     _npmUser: { name: 'weiss', email: 'dima.nikitenko@gmail.com' },
+44 silly resolved     maintainers: [ [Object] ],
+44 silly resolved     dist:
+44 silly resolved      { shasum: '81d5d03872a8f645e93dd4c4f256ae0661633116',
+44 silly resolved        tarball: 'http://registry.npmjs.org/grunt-autoprefixer/-/grunt-autoprefixer-1.0.0.tgz' },
+44 silly resolved     directories: {},
+44 silly resolved     _resolved: 'https://registry.npmjs.org/grunt-autoprefixer/-/grunt-autoprefixer-1.0.0.tgz',
+44 silly resolved     readme: 'ERROR: No README data found!' } ]
+45 info install grunt-autoprefixer@1.0.0 into /Users/kdesai/LifeLetters/LL-webfront
+46 info installOne grunt-autoprefixer@1.0.0
+47 verbose node_modules/grunt-autoprefixer unbuild
+48 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer
+49 verbose tar unpack /Users/kdesai/.npm/grunt-autoprefixer/1.0.0/package.tgz
+50 silly lockFile 4601633b--node-modules-grunt-autoprefixer tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer
+51 verbose lock tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer /Users/kdesai/.npm/4601633b--node-modules-grunt-autoprefixer.lock
+52 silly lockFile dff3cff8-t-autoprefixer-1-0-0-package-tgz tar:///Users/kdesai/.npm/grunt-autoprefixer/1.0.0/package.tgz
+53 verbose lock tar:///Users/kdesai/.npm/grunt-autoprefixer/1.0.0/package.tgz /Users/kdesai/.npm/dff3cff8-t-autoprefixer-1-0-0-package-tgz.lock
+54 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry README.md
+58 silly gunzTarPerm extractEntry LICENSE
+59 silly gunzTarPerm extractEntry tasks/autoprefixer.js
+60 silly lockFile 4601633b--node-modules-grunt-autoprefixer tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer
+61 silly lockFile 4601633b--node-modules-grunt-autoprefixer tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer
+62 silly lockFile dff3cff8-t-autoprefixer-1-0-0-package-tgz tar:///Users/kdesai/.npm/grunt-autoprefixer/1.0.0/package.tgz
+63 silly lockFile dff3cff8-t-autoprefixer-1-0-0-package-tgz tar:///Users/kdesai/.npm/grunt-autoprefixer/1.0.0/package.tgz
+64 info preinstall grunt-autoprefixer@1.0.0
+65 verbose readDependencies using package.json deps
+66 verbose readDependencies using package.json deps
+67 verbose cache add [ 'autoprefixer@^2.1.0', null ]
+68 verbose cache add spec="autoprefixer@^2.1.0" args=["autoprefixer@^2.1.0",null]
+69 verbose cache add [ 'diff@~1.0.8', null ]
+70 verbose cache add spec="diff@~1.0.8" args=["diff@~1.0.8",null]
+71 verbose parsed spec { raw: 'autoprefixer@^2.1.0',
+71 verbose parsed spec   scope: null,
+71 verbose parsed spec   name: 'autoprefixer',
+71 verbose parsed spec   rawSpec: '^2.1.0',
+71 verbose parsed spec   spec: '>=2.1.0-0 <3.0.0-0',
+71 verbose parsed spec   type: 'range' }
+72 verbose addNamed [ 'autoprefixer', '>=2.1.0-0 <3.0.0-0' ]
+73 verbose addNamed [ null, '>=2.1.0-0 <3.0.0-0' ]
+74 silly lockFile 4e6ebe9e-autoprefixer-2-1-0-0-3-0-0-0 autoprefixer@>=2.1.0-0 <3.0.0-0
+75 verbose lock autoprefixer@>=2.1.0-0 <3.0.0-0 /Users/kdesai/.npm/4e6ebe9e-autoprefixer-2-1-0-0-3-0-0-0.lock
+76 verbose parsed spec { raw: 'diff@~1.0.8',
+76 verbose parsed spec   scope: null,
+76 verbose parsed spec   name: 'diff',
+76 verbose parsed spec   rawSpec: '~1.0.8',
+76 verbose parsed spec   spec: '>=1.0.8-0 <1.1.0-0',
+76 verbose parsed spec   type: 'range' }
+77 verbose addNamed [ 'diff', '>=1.0.8-0 <1.1.0-0' ]
+78 verbose addNamed [ null, '>=1.0.8-0 <1.1.0-0' ]
+79 silly lockFile 36c4330d-diff-1-0-8-0-1-1-0-0 diff@>=1.0.8-0 <1.1.0-0
+80 verbose lock diff@>=1.0.8-0 <1.1.0-0 /Users/kdesai/.npm/36c4330d-diff-1-0-8-0-1-1-0-0.lock
+81 verbose cache add [ 'chalk@~0.5.0', null ]
+82 verbose cache add spec="chalk@~0.5.0" args=["chalk@~0.5.0",null]
+83 verbose parsed spec { raw: 'chalk@~0.5.0',
+83 verbose parsed spec   scope: null,
+83 verbose parsed spec   name: 'chalk',
+83 verbose parsed spec   rawSpec: '~0.5.0',
+83 verbose parsed spec   spec: '>=0.5.0-0 <0.6.0-0',
+83 verbose parsed spec   type: 'range' }
+84 verbose addNamed [ 'chalk', '>=0.5.0-0 <0.6.0-0' ]
+85 verbose addNamed [ null, '>=0.5.0-0 <0.6.0-0' ]
+86 silly lockFile 29edd5b1-chalk-0-5-0-0-0-6-0-0 chalk@>=0.5.0-0 <0.6.0-0
+87 verbose lock chalk@>=0.5.0-0 <0.6.0-0 /Users/kdesai/.npm/29edd5b1-chalk-0-5-0-0-0-6-0-0.lock
+88 silly addNameRange { name: 'autoprefixer',
+88 silly addNameRange   range: '>=2.1.0-0 <3.0.0-0',
+88 silly addNameRange   hasData: false }
+89 verbose mapToRegistry name autoprefixer
+90 verbose mapToRegistry uri https://registry.npmjs.org/autoprefixer
+91 silly addNameRange { name: 'diff', range: '>=1.0.8-0 <1.1.0-0', hasData: false }
+92 verbose mapToRegistry name diff
+93 verbose mapToRegistry uri https://registry.npmjs.org/diff
+94 verbose request where is /autoprefixer
+95 verbose request registry https://registry.npmjs.org/
+96 verbose request url raw /autoprefixer
+97 verbose request url resolving [ 'https://registry.npmjs.org/', './autoprefixer' ]
+98 verbose request url resolved https://registry.npmjs.org/autoprefixer
+99 verbose request where is https://registry.npmjs.org/autoprefixer
+100 verbose request no basic auth needed
+101 info trying registry request attempt 1 at 15:03:59
+102 verbose etag "6YYCPT7BRO1DPOWUF2L5PAGP0"
+103 http GET https://registry.npmjs.org/autoprefixer
+104 verbose request where is /diff
+105 verbose request registry https://registry.npmjs.org/
+106 verbose request url raw /diff
+107 verbose request url resolving [ 'https://registry.npmjs.org/', './diff' ]
+108 verbose request url resolved https://registry.npmjs.org/diff
+109 verbose request where is https://registry.npmjs.org/diff
+110 verbose request no basic auth needed
+111 info trying registry request attempt 1 at 15:03:59
+112 verbose etag "40QFIO4OU86OYKMXS0VTF57HJ"
+113 http GET https://registry.npmjs.org/diff
+114 silly addNameRange { name: 'chalk', range: '>=0.5.0-0 <0.6.0-0', hasData: false }
+115 verbose mapToRegistry name chalk
+116 verbose mapToRegistry uri https://registry.npmjs.org/chalk
+117 verbose request where is /chalk
+118 verbose request registry https://registry.npmjs.org/
+119 verbose request url raw /chalk
+120 verbose request url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+121 verbose request url resolved https://registry.npmjs.org/chalk
+122 verbose request where is https://registry.npmjs.org/chalk
+123 verbose request no basic auth needed
+124 info trying registry request attempt 1 at 15:03:59
+125 verbose etag "AYH9Z5HC7LUZSYM4UCBJJDII5"
+126 http GET https://registry.npmjs.org/chalk
+127 http 304 https://registry.npmjs.org/diff
+128 silly registry.get cb [ 304,
+128 silly registry.get   { date: 'Sun, 17 Aug 2014 05:03:58 GMT',
+128 silly registry.get     server: 'Apache',
+128 silly registry.get     via: '1.1 varnish',
+128 silly registry.get     'last-modified': 'Sun, 17 Aug 2014 05:03:53 GMT',
+128 silly registry.get     'cache-control': 'max-age=60',
+128 silly registry.get     etag: '"40QFIO4OU86OYKMXS0VTF57HJ"',
+128 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+128 silly registry.get     'x-cache': 'HIT',
+128 silly registry.get     'x-cache-hits': '2',
+128 silly registry.get     'x-timer': 'S1408251838.459298,VS0,VE0',
+128 silly registry.get     vary: 'Accept',
+128 silly registry.get     'content-length': '0',
+128 silly registry.get     'keep-alive': 'timeout=10, max=50',
+128 silly registry.get     connection: 'Keep-Alive' } ]
+129 verbose etag https://registry.npmjs.org/diff from cache
+130 http 304 https://registry.npmjs.org/autoprefixer
+131 silly registry.get cb [ 304,
+131 silly registry.get   { date: 'Sun, 17 Aug 2014 05:03:58 GMT',
+131 silly registry.get     server: 'Apache',
+131 silly registry.get     via: '1.1 varnish',
+131 silly registry.get     'last-modified': 'Sun, 17 Aug 2014 05:03:58 GMT',
+131 silly registry.get     'cache-control': 'max-age=60',
+131 silly registry.get     etag: '"6YYCPT7BRO1DPOWUF2L5PAGP0"',
+131 silly registry.get     'x-served-by': 'cache-syd1620-SYD',
+131 silly registry.get     'x-cache': 'HIT',
+131 silly registry.get     'x-cache-hits': '1',
+131 silly registry.get     'x-timer': 'S1408251838.460364,VS0,VE0',
+131 silly registry.get     vary: 'Accept',
+131 silly registry.get     'content-length': '0',
+131 silly registry.get     'keep-alive': 'timeout=10, max=50',
+131 silly registry.get     connection: 'Keep-Alive' } ]
+132 verbose etag https://registry.npmjs.org/autoprefixer from cache
+133 silly addNameRange number 2 { name: 'diff', range: '>=1.0.8-0 <1.1.0-0', hasData: true }
+134 silly addNameRange versions [ 'diff',
+134 silly addNameRange   [ '1.0.0',
+134 silly addNameRange     '1.0.1',
+134 silly addNameRange     '1.0.2',
+134 silly addNameRange     '1.0.3',
+134 silly addNameRange     '1.0.4',
+134 silly addNameRange     '1.0.5',
+134 silly addNameRange     '1.0.6',
+134 silly addNameRange     '1.0.7',
+134 silly addNameRange     '1.0.8' ] ]
+135 verbose addNamed [ 'diff', '1.0.8' ]
+136 verbose addNamed [ '1.0.8', '1.0.8' ]
+137 silly lockFile 2c973233-diff-1-0-8 diff@1.0.8
+138 verbose lock diff@1.0.8 /Users/kdesai/.npm/2c973233-diff-1-0-8.lock
+139 silly addNameRange number 2 { name: 'autoprefixer',
+139 silly addNameRange   range: '>=2.1.0-0 <3.0.0-0',
+139 silly addNameRange   hasData: true }
+140 silly addNameRange versions [ 'autoprefixer',
+140 silly addNameRange   [ '0.1.20130409',
+140 silly addNameRange     '0.2.20130413',
+140 silly addNameRange     '0.3.20130423',
+140 silly addNameRange     '0.3.20130424',
+140 silly addNameRange     '0.3.20130427',
+140 silly addNameRange     '0.3.20130502',
+140 silly addNameRange     '0.4.20130507',
+140 silly addNameRange     '0.4.20130515',
+140 silly addNameRange     '0.4.20130521',
+140 silly addNameRange     '0.4.20130524',
+140 silly addNameRange     '0.4.20130528',
+140 silly addNameRange     '0.4.20130530',
+140 silly addNameRange     '0.4.20130603',
+140 silly addNameRange     '0.5.20130615',
+140 silly addNameRange     '0.5.20130616',
+140 silly addNameRange     '0.5.20130617',
+140 silly addNameRange     '0.5.20130625',
+140 silly addNameRange     '0.5.20130626',
+140 silly addNameRange     '0.5.20130629',
+140 silly addNameRange     '0.6.20130716',
+140 silly addNameRange     '0.6.20130721',
+140 silly addNameRange     '0.6.20130728',
+140 silly addNameRange     '0.6.20130729',
+140 silly addNameRange     '0.6.20130730',
+140 silly addNameRange     '0.6.20130731',
+140 silly addNameRange     '0.7.20130805',
+140 silly addNameRange     '0.7.20130806',
+140 silly addNameRange     '0.7.20130807',
+140 silly addNameRange     '0.7.20130808',
+140 silly addNameRange     '0.7.20130810',
+140 silly addNameRange     '0.7.20130824',
+140 silly addNameRange     '0.8.20130902',
+140 silly addNameRange     '0.8.20130903',
+140 silly addNameRange     '0.8.20130906',
+140 silly addNameRange     '0.8.20130911',
+140 silly addNameRange     '0.8.20130919',
+140 silly addNameRange     '0.8.20130923',
+140 silly addNameRange     '0.8.20131001',
+140 silly addNameRange     '0.8.20131006',
+140 silly addNameRange     '0.8.20131007',
+140 silly addNameRange     '0.8.20131009',
+140 silly addNameRange     '0.8.20131015',
+140 silly addNameRange     '0.8.20131017',
+140 silly addNameRange     '0.8.20131020',
+140 silly addNameRange     '0.8.20131029',
+140 silly addNameRange     '0.8.20131104',
+140 silly addNameRange     '0.8.20131209',
+140 silly addNameRange     '0.8.20131213',
+140 silly addNameRange     '1.0.20131222',
+140 silly addNameRange     '1.0.20140103',
+140 silly addNameRange     '1.0.20140109',
+140 silly addNameRange     '1.0.20140110',
+140 silly addNameRange     '1.0.20140117',
+140 silly addNameRange     '1.0.20140130',
+140 silly addNameRange     '1.0.20140203',
+140 silly addNameRange     '1.0.20140213',
+140 silly addNameRange     '1.1.20140218',
+140 silly addNameRange     '1.1.20140222',
+140 silly addNameRange     '1.1.20140226',
+140 silly addNameRange     '1.1.20140302',
+140 silly addNameRange     '1.1.20140319',
+140 silly addNameRange     '1.1.20140327',
+140 silly addNameRange     '1.1.20140403',
+140 silly addNameRange     '1.1.20140410',
+140 silly addNameRange     '1.1.20140429',
+140 silly addNameRange     '1.1.20140430',
+140 silly addNameRange     '1.1.20140510',
+140 silly addNameRange     '1.1.20140512',
+140 silly addNameRange     '1.1.20140521',
+140 silly addNameRange     '1.1.20140523',
+140 silly addNameRange     '1.1.20140605',
+140 silly addNameRange     '1.2.0',
+140 silly addNameRange     '1.3.0',
+140 silly addNameRange     '1.3.1',
+140 silly addNameRange     '2.0.0',
+140 silly addNameRange     '2.0.1',
+140 silly addNameRange     '2.0.2',
+140 silly addNameRange     '2.1.0',
+140 silly addNameRange     '2.1.1',
+140 silly addNameRange     '2.2.0' ] ]
+141 verbose addNamed [ 'autoprefixer', '2.2.0' ]
+142 verbose addNamed [ '2.2.0', '2.2.0' ]
+143 silly lockFile bceb9f0b-autoprefixer-2-2-0 autoprefixer@2.2.0
+144 verbose lock autoprefixer@2.2.0 /Users/kdesai/.npm/bceb9f0b-autoprefixer-2-2-0.lock
+145 silly lockFile 2c973233-diff-1-0-8 diff@1.0.8
+146 silly lockFile 2c973233-diff-1-0-8 diff@1.0.8
+147 silly lockFile 36c4330d-diff-1-0-8-0-1-1-0-0 diff@>=1.0.8-0 <1.1.0-0
+148 silly lockFile 36c4330d-diff-1-0-8-0-1-1-0-0 diff@>=1.0.8-0 <1.1.0-0
+149 silly lockFile bceb9f0b-autoprefixer-2-2-0 autoprefixer@2.2.0
+150 silly lockFile bceb9f0b-autoprefixer-2-2-0 autoprefixer@2.2.0
+151 silly lockFile 4e6ebe9e-autoprefixer-2-1-0-0-3-0-0-0 autoprefixer@>=2.1.0-0 <3.0.0-0
+152 silly lockFile 4e6ebe9e-autoprefixer-2-1-0-0-3-0-0-0 autoprefixer@>=2.1.0-0 <3.0.0-0
+153 http 304 https://registry.npmjs.org/chalk
+154 silly registry.get cb [ 304,
+154 silly registry.get   { date: 'Sun, 17 Aug 2014 05:03:58 GMT',
+154 silly registry.get     server: 'Apache',
+154 silly registry.get     via: '1.1 varnish',
+154 silly registry.get     'last-modified': 'Sun, 17 Aug 2014 05:03:58 GMT',
+154 silly registry.get     'cache-control': 'max-age=60',
+154 silly registry.get     etag: '"AYH9Z5HC7LUZSYM4UCBJJDII5"',
+154 silly registry.get     'x-served-by': 'cache-syd1620-SYD',
+154 silly registry.get     'x-cache': 'HIT',
+154 silly registry.get     'x-cache-hits': '1',
+154 silly registry.get     'x-timer': 'S1408251838.459539,VS0,VE242',
+154 silly registry.get     vary: 'Accept',
+154 silly registry.get     'content-length': '0',
+154 silly registry.get     'keep-alive': 'timeout=10, max=50',
+154 silly registry.get     connection: 'Keep-Alive' } ]
+155 verbose etag https://registry.npmjs.org/chalk from cache
+156 silly addNameRange number 2 { name: 'chalk', range: '>=0.5.0-0 <0.6.0-0', hasData: true }
+157 silly addNameRange versions [ 'chalk',
+157 silly addNameRange   [ '0.1.0',
+157 silly addNameRange     '0.1.1',
+157 silly addNameRange     '0.2.0',
+157 silly addNameRange     '0.2.1',
+157 silly addNameRange     '0.3.0',
+157 silly addNameRange     '0.4.0',
+157 silly addNameRange     '0.5.0',
+157 silly addNameRange     '0.5.1' ] ]
+158 verbose addNamed [ 'chalk', '0.5.1' ]
+159 verbose addNamed [ '0.5.1', '0.5.1' ]
+160 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+161 verbose lock chalk@0.5.1 /Users/kdesai/.npm/c28973bb-chalk-0-5-1.lock
+162 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+163 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+164 silly lockFile 29edd5b1-chalk-0-5-0-0-0-6-0-0 chalk@>=0.5.0-0 <0.6.0-0
+165 silly lockFile 29edd5b1-chalk-0-5-0-0-0-6-0-0 chalk@>=0.5.0-0 <0.6.0-0
+166 silly resolved [ { name: 'diff',
+166 silly resolved     version: '1.0.8',
+166 silly resolved     description: 'A javascript text diff implementation.',
+166 silly resolved     keywords: [ 'diff', 'javascript' ],
+166 silly resolved     maintainers: [ [Object] ],
+166 silly resolved     bugs:
+166 silly resolved      { url: 'http://github.com/kpdecker/jsdiff/issues',
+166 silly resolved        email: 'kpdecker@gmail.com' },
+166 silly resolved     licenses: [ [Object] ],
+166 silly resolved     repository: { type: 'git', url: 'git://github.com/kpdecker/jsdiff.git' },
+166 silly resolved     engines: { node: '>=0.3.1' },
+166 silly resolved     main: './diff',
+166 silly resolved     scripts: { test: 'mocha test/*.js' },
+166 silly resolved     dependencies: {},
+166 silly resolved     devDependencies: { mocha: '~1.6', should: '~1.2', colors: '~0.6.2' },
+166 silly resolved     optionalDependencies: {},
+166 silly resolved     files: [ 'diff.js' ],
+166 silly resolved     readme: '# jsdiff\n\n[![Build Status](https://secure.travis-ci.org/kpdecker/jsdiff.png)](http://travis-ci.org/kpdecker/jsdiff)\n\nA javascript text differencing implementation.\n\nBased on the algorithm proposed in\n["An O(ND) Difference Algorithm and its Variations" (Myers, 1986)](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.4.6927).\n\n## Installation\n\n    npm install diff\n\nor\n\n    git clone git://github.com/kpdecker/jsdiff.git\n\n## API\n\n* `JsDiff.diffChars(oldStr, newStr)` - diffs two blocks of text, comparing character by character.\n\n    Returns a list of change objects (See below).\n\n* `JsDiff.diffWords(oldStr, newStr)` - diffs two blocks of text, comparing word by word.\n\n    Returns a list of change objects (See below).\n\n* `JsDiff.diffLines(oldStr, newStr)` - diffs two blocks of text, comparing line by line.\n\n    Returns a list of change objects (See below).\n\n* `JsDiff.diffCss(oldStr, newStr)` - diffs two blocks of text, comparing CSS tokens.\n\n    Returns a list of change objects (See below).\n\n* `JsDiff.createPatch(fileName, oldStr, newStr, oldHeader, newHeader)` - creates a unified diff patch.\n\n    Parameters:\n    * `fileName` : String to be output in the filename sections of the patch\n    * `oldStr` : Original string value\n    * `newStr` : New string value\n    * `oldHeader` : Additional information to include in the old file header\n    * `newHeader` : Additional information to include in thew new file header\n\n* `JsDiff.applyPatch(oldStr, diffStr)` - applies a unified diff patch.\n\n    Return a string containing new version of provided data.\n\n* `convertChangesToXML(changes)` - converts a list of changes to a serialized XML format\n\n### Change Objects\nMany of the methods above return change objects. These objects are consist of the following fields:\n\n* `value`: Text content\n* `added`: True if the value was inserted into the new string\n* `removed`: True of the value was removed from the old string\n\nNote that some cases may omit a particular flag field. Comparison on the flag fields should always be done in a truthy or falsy manner.\n\n## Examples\n\nBasic example in Node\n\n```js\nrequire(\'colors\')\nvar jsdiff = require(\'diff\');\n\nvar one = \'beep boop\';\nvar other = \'beep boob blah\';\n\nvar diff = jsdiff.diffChars(one, other);\n\ndiff.forEach(function(part){\n  // green for additions, red for deletions\n  // grey for common parts\n  var color = part.added ? \'green\' :\n    part.removed ? \'red\' : \'grey\';\n  process.stderr.write(part.value[color]);\n});\n\nconsole.log()\n```\nRunning the above program should yield\n\n<img src="images/node_example.png" alt="Node Example">\n\nBasic example in a web page\n\n```html\n<pre id="display"></pre>\n<script src="diff.js"></script>\n<script>\nvar one = \'beep boop\';\nvar other = \'beep boob blah\';\n\nvar diff = JsDiff.diffChars(one, other);\n\ndiff.forEach(function(part){\n  // green for additions, red for deletions\n  // grey for common parts\n  var color = part.added ? \'green\' :\n    part.removed ? \'red\' : \'grey\';\n  var span = document.createElement(\'span\');\n  span.style.color = color;\n  span.appendChild(document\n    .createTextNode(part.value));\n  display.appendChild(span);\n});\n</script>\n```\n\nOpen the above .html file in a browser and you should see\n\n<img src="images/web_example.png" alt="Node Example">\n\n**[Full online demo](http://kpdecker.github.com/jsdiff)**\n\n## License\n\nSoftware License Agreement (BSD License)\n\nCopyright (c) 2009-2011, Kevin Decker kpdecker@gmail.com\n\nAll rights reserved.\n\nRedistribution and use of this software in source and binary forms, with or without modification,\nare permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above\n  copyright notice, this list of conditions and the\n  following disclaimer.\n\n* Redistributions in binary form must reproduce the above\n  copyright notice, this list of conditions and the\n  following disclaimer in the documentation and/or other\n  materials provided with the distribution.\n\n* Neither the name of Kevin Decker nor the names of its\n  contributors may be used to endorse or promote products\n  derived from this software without specific prior\n  written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND\nFITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR\nCONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\nDATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER\nIN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT\nOF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n\n[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kpdecker/jsdiff/trend.png)](https://bitdeli.com/free "Bitdeli Badge")\n\n',
+166 silly resolved     readmeFilename: 'README.md',
+166 silly resolved     _id: 'diff@1.0.8',
+166 silly resolved     dist:
+166 silly resolved      { shasum: '343276308ec991b7bc82267ed55bc1411f971666',
+166 silly resolved        tarball: 'http://registry.npmjs.org/diff/-/diff-1.0.8.tgz' },
+166 silly resolved     _from: 'diff@>=1.0.8-0 <1.1.0-0',
+166 silly resolved     _npmVersion: '1.3.11',
+166 silly resolved     _npmUser: { name: 'kpdecker', email: 'kpdecker@gmail.com' },
+166 silly resolved     directories: {},
+166 silly resolved     _shasum: '343276308ec991b7bc82267ed55bc1411f971666',
+166 silly resolved     _resolved: 'https://registry.npmjs.org/diff/-/diff-1.0.8.tgz',
+166 silly resolved     homepage: 'https://github.com/kpdecker/jsdiff' },
+166 silly resolved   { name: 'autoprefixer',
+166 silly resolved     version: '2.2.0',
+166 silly resolved     description: 'Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website',
+166 silly resolved     keywords: [ 'css', 'prefix', 'postprocessor', 'postcss' ],
+166 silly resolved     author: { name: 'Andrey Sitnik', email: 'andrey@sitnik.ru' },
+166 silly resolved     license: 'MIT',
+166 silly resolved     repository: { type: 'git', url: 'https://github.com/ai/autoprefixer.git' },
+166 silly resolved     dependencies:
+166 silly resolved      { 'caniuse-db': '^1.0.20140727',
+166 silly resolved        'fs-extra': '~0.10.0',
+166 silly resolved        postcss: '~2.1.0' },
+166 silly resolved     devDependencies:
+166 silly resolved      { browserify: '5.9.1',
+166 silly resolved        should: '4.0.4',
+166 silly resolved        stylus: '0.47.3',
+166 silly resolved        mocha: '1.21.3',
+166 silly resolved        nib: '1.0.3' },
+166 silly resolved     bin: { autoprefixer: './bin/autoprefixer' },
+166 silly resolved     scripts: { test: 'mocha' },
+166 silly resolved     main: 'lib/autoprefixer',
+166 silly resolved     bugs: { url: 'https://github.com/ai/autoprefixer/issues' },
+166 silly resolved     homepage: 'https://github.com/ai/autoprefixer',
+166 silly resolved     _id: 'autoprefixer@2.2.0',
+166 silly resolved     _shasum: 'c7c7936a280a64f8fa0e5f6108ba22f92c639633',
+166 silly resolved     _from: 'autoprefixer@>=2.1.0-0 <3.0.0-0',
+166 silly resolved     _npmVersion: '1.4.10',
+166 silly resolved     _npmUser: { name: 'ai', email: 'andrey@sitnik.ru' },
+166 silly resolved     maintainers: [ [Object], [Object] ],
+166 silly resolved     dist:
+166 silly resolved      { shasum: 'c7c7936a280a64f8fa0e5f6108ba22f92c639633',
+166 silly resolved        tarball: 'http://registry.npmjs.org/autoprefixer/-/autoprefixer-2.2.0.tgz' },
+166 silly resolved     directories: {},
+166 silly resolved     _resolved: 'https://registry.npmjs.org/autoprefixer/-/autoprefixer-2.2.0.tgz',
+166 silly resolved     readme: 'ERROR: No README data found!' },
+166 silly resolved   { name: 'chalk',
+166 silly resolved     version: '0.5.1',
+166 silly resolved     description: 'Terminal string styling done right. Created because the `colors` module does some really horrible things.',
+166 silly resolved     license: 'MIT',
+166 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/chalk' },
+166 silly resolved     maintainers: [ [Object], [Object] ],
+166 silly resolved     engines: { node: '>=0.10.0' },
+166 silly resolved     scripts: { test: 'mocha', bench: 'matcha benchmark.js' },
+166 silly resolved     files: [ 'index.js' ],
+166 silly resolved     keywords:
+166 silly resolved      [ 'color',
+166 silly resolved        'colour',
+166 silly resolved        'colors',
+166 silly resolved        'terminal',
+166 silly resolved        'console',
+166 silly resolved        'cli',
+166 silly resolved        'string',
+166 silly resolved        'ansi',
+166 silly resolved        'styles',
+166 silly resolved        'tty',
+166 silly resolved        'formatting',
+166 silly resolved        'rgb',
+166 silly resolved        '256',
+166 silly resolved        'shell',
+166 silly resolved        'xterm',
+166 silly resolved        'log',
+166 silly resolved        'logging',
+166 silly resolved        'command-line',
+166 silly resolved        'text' ],
+166 silly resolved     dependencies:
+166 silly resolved      { 'ansi-styles': '^1.1.0',
+166 silly resolved        'escape-string-regexp': '^1.0.0',
+166 silly resolved        'has-ansi': '^0.1.0',
+166 silly resolved        'strip-ansi': '^0.3.0',
+166 silly resolved        'supports-color': '^0.2.0' },
+166 silly resolved     devDependencies: { matcha: '^0.5.0', mocha: '*' },
+166 silly resolved     gitHead: '994758f01293f1fdcf63282e9917cb9f2cfbdaac',
+166 silly resolved     bugs: { url: 'https://github.com/sindresorhus/chalk/issues' },
+166 silly resolved     homepage: 'https://github.com/sindresorhus/chalk',
+166 silly resolved     _id: 'chalk@0.5.1',
+166 silly resolved     _shasum: '663b3a648b68b55d04690d49167aa837858f2174',
+166 silly resolved     _from: 'chalk@>=0.5.0-0 <0.6.0-0',
+166 silly resolved     _npmVersion: '1.4.14',
+166 silly resolved     _npmUser: { name: 'jbnicolai', email: 'jappelman@xebia.com' },
+166 silly resolved     dist:
+166 silly resolved      { shasum: '663b3a648b68b55d04690d49167aa837858f2174',
+166 silly resolved        tarball: 'http://registry.npmjs.org/chalk/-/chalk-0.5.1.tgz' },
+166 silly resolved     directories: {},
+166 silly resolved     _resolved: 'https://registry.npmjs.org/chalk/-/chalk-0.5.1.tgz',
+166 silly resolved     readme: 'ERROR: No README data found!' } ]
+167 info install diff@1.0.8 into /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer
+168 info install autoprefixer@2.2.0 into /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer
+169 info install chalk@0.5.1 into /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer
+170 info installOne diff@1.0.8
+171 info installOne autoprefixer@2.2.0
+172 info installOne chalk@0.5.1
+173 verbose node_modules/grunt-autoprefixer/node_modules/diff unbuild
+174 verbose node_modules/grunt-autoprefixer/node_modules/autoprefixer unbuild
+175 verbose node_modules/grunt-autoprefixer/node_modules/chalk unbuild
+176 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/diff
+177 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/autoprefixer
+178 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk
+179 verbose tar unpack /Users/kdesai/.npm/diff/1.0.8/package.tgz
+180 silly lockFile 3a07872c-t-autoprefixer-node-modules-diff tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/diff
+181 verbose lock tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/diff /Users/kdesai/.npm/3a07872c-t-autoprefixer-node-modules-diff.lock
+182 silly lockFile e22f0e3e-desai-npm-diff-1-0-8-package-tgz tar:///Users/kdesai/.npm/diff/1.0.8/package.tgz
+183 verbose lock tar:///Users/kdesai/.npm/diff/1.0.8/package.tgz /Users/kdesai/.npm/e22f0e3e-desai-npm-diff-1-0-8-package-tgz.lock
+184 verbose tar unpack /Users/kdesai/.npm/autoprefixer/2.2.0/package.tgz
+185 silly lockFile dc3ea304-efixer-node-modules-autoprefixer tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/autoprefixer
+186 verbose lock tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/autoprefixer /Users/kdesai/.npm/dc3ea304-efixer-node-modules-autoprefixer.lock
+187 silly lockFile fc03be6a-m-autoprefixer-2-2-0-package-tgz tar:///Users/kdesai/.npm/autoprefixer/2.2.0/package.tgz
+188 verbose lock tar:///Users/kdesai/.npm/autoprefixer/2.2.0/package.tgz /Users/kdesai/.npm/fc03be6a-m-autoprefixer-2-2-0-package-tgz.lock
+189 verbose tar unpack /Users/kdesai/.npm/chalk/0.5.1/package.tgz
+190 silly lockFile b099ed91--autoprefixer-node-modules-chalk tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk
+191 verbose lock tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk /Users/kdesai/.npm/b099ed91--autoprefixer-node-modules-chalk.lock
+192 silly lockFile 2a02dfd3-esai-npm-chalk-0-5-1-package-tgz tar:///Users/kdesai/.npm/chalk/0.5.1/package.tgz
+193 verbose lock tar:///Users/kdesai/.npm/chalk/0.5.1/package.tgz /Users/kdesai/.npm/2a02dfd3-esai-npm-chalk-0-5-1-package-tgz.lock
+194 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/diff
+195 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/autoprefixer
+196 silly gunzTarPerm modes [ '755', '644' ]
+197 silly gunzTarPerm modes [ '755', '644' ]
+198 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk
+199 silly gunzTarPerm modes [ '755', '644' ]
+200 silly gunzTarPerm extractEntry package.json
+201 silly gunzTarPerm extractEntry package.json
+202 silly gunzTarPerm extractEntry package.json
+203 silly gunzTarPerm extractEntry README.md
+204 silly gunzTarPerm extractEntry diff.js
+205 silly gunzTarPerm extractEntry README.md
+206 silly gunzTarPerm extractEntry LICENSE
+207 silly gunzTarPerm extractEntry index.js
+208 silly gunzTarPerm extractEntry readme.md
+209 silly gunzTarPerm extractEntry ChangeLog.md
+210 silly gunzTarPerm extractEntry bin/autoprefixer
+211 silly gunzTarPerm modified mode [ 'bin/autoprefixer', 509, 493 ]
+212 silly gunzTarPerm extractEntry data/browsers.js
+213 silly gunzTarPerm extractEntry data/prefixes.js
+214 silly gunzTarPerm extractEntry lib/autoprefixer.js
+215 silly gunzTarPerm extractEntry lib/utils.js
+216 silly gunzTarPerm extractEntry lib/info.js
+217 silly gunzTarPerm extractEntry lib/keyframes.js
+218 silly gunzTarPerm extractEntry lib/declaration.js
+219 silly gunzTarPerm extractEntry lib/binary.js
+220 silly gunzTarPerm extractEntry lib/prefixer.js
+221 silly gunzTarPerm extractEntry lib/prefixes.js
+222 silly gunzTarPerm extractEntry lib/processor.js
+223 silly gunzTarPerm extractEntry lib/selector.js
+224 silly gunzTarPerm extractEntry lib/browsers.js
+225 silly gunzTarPerm extractEntry lib/supports.js
+226 silly gunzTarPerm extractEntry lib/old-selector.js
+227 silly gunzTarPerm extractEntry lib/value.js
+228 silly gunzTarPerm extractEntry lib/old-value.js
+229 silly gunzTarPerm extractEntry lib/hacks/align-content.js
+230 silly gunzTarPerm extractEntry lib/hacks/filter.js
+231 silly gunzTarPerm extractEntry lib/hacks/flex-basis.js
+232 silly gunzTarPerm extractEntry lib/hacks/flex-direction.js
+233 silly gunzTarPerm extractEntry lib/hacks/flex-flow.js
+234 silly gunzTarPerm extractEntry lib/hacks/fill-available.js
+235 silly gunzTarPerm extractEntry lib/hacks/flex-shrink.js
+236 silly lockFile 3a07872c-t-autoprefixer-node-modules-diff tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/diff
+237 silly lockFile 3a07872c-t-autoprefixer-node-modules-diff tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/diff
+238 silly lockFile b099ed91--autoprefixer-node-modules-chalk tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk
+239 silly lockFile b099ed91--autoprefixer-node-modules-chalk tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk
+240 silly lockFile e22f0e3e-desai-npm-diff-1-0-8-package-tgz tar:///Users/kdesai/.npm/diff/1.0.8/package.tgz
+241 silly lockFile e22f0e3e-desai-npm-diff-1-0-8-package-tgz tar:///Users/kdesai/.npm/diff/1.0.8/package.tgz
+242 silly lockFile 2a02dfd3-esai-npm-chalk-0-5-1-package-tgz tar:///Users/kdesai/.npm/chalk/0.5.1/package.tgz
+243 silly lockFile 2a02dfd3-esai-npm-chalk-0-5-1-package-tgz tar:///Users/kdesai/.npm/chalk/0.5.1/package.tgz
+244 info preinstall diff@1.0.8
+245 info preinstall chalk@0.5.1
+246 verbose readDependencies using package.json deps
+247 verbose readDependencies using package.json deps
+248 verbose readDependencies using package.json deps
+249 silly resolved []
+250 verbose about to build /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/diff
+251 info build /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/diff
+252 verbose linkStuff [ false,
+252 verbose linkStuff   false,
+252 verbose linkStuff   false,
+252 verbose linkStuff   '/Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules' ]
+253 info linkStuff diff@1.0.8
+254 verbose linkBins diff@1.0.8
+255 verbose linkMans diff@1.0.8
+256 verbose rebuildBundles diff@1.0.8
+257 verbose readDependencies using package.json deps
+258 info install diff@1.0.8
+259 info postinstall diff@1.0.8
+260 verbose cache add [ 'has-ansi@^0.1.0', null ]
+261 verbose cache add spec="has-ansi@^0.1.0" args=["has-ansi@^0.1.0",null]
+262 verbose cache add [ 'ansi-styles@^1.1.0', null ]
+263 verbose cache add spec="ansi-styles@^1.1.0" args=["ansi-styles@^1.1.0",null]
+264 verbose cache add [ 'escape-string-regexp@^1.0.0', null ]
+265 verbose cache add spec="escape-string-regexp@^1.0.0" args=["escape-string-regexp@^1.0.0",null]
+266 verbose cache add [ 'strip-ansi@^0.3.0', null ]
+267 verbose cache add spec="strip-ansi@^0.3.0" args=["strip-ansi@^0.3.0",null]
+268 verbose cache add [ 'supports-color@^0.2.0', null ]
+269 verbose cache add spec="supports-color@^0.2.0" args=["supports-color@^0.2.0",null]
+270 verbose parsed spec { raw: 'has-ansi@^0.1.0',
+270 verbose parsed spec   scope: null,
+270 verbose parsed spec   name: 'has-ansi',
+270 verbose parsed spec   rawSpec: '^0.1.0',
+270 verbose parsed spec   spec: '>=0.1.0-0 <0.2.0-0',
+270 verbose parsed spec   type: 'range' }
+271 verbose addNamed [ 'has-ansi', '>=0.1.0-0 <0.2.0-0' ]
+272 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+273 silly lockFile fce2323d-has-ansi-0-1-0-0-0-2-0-0 has-ansi@>=0.1.0-0 <0.2.0-0
+274 verbose lock has-ansi@>=0.1.0-0 <0.2.0-0 /Users/kdesai/.npm/fce2323d-has-ansi-0-1-0-0-0-2-0-0.lock
+275 verbose parsed spec { raw: 'ansi-styles@^1.1.0',
+275 verbose parsed spec   scope: null,
+275 verbose parsed spec   name: 'ansi-styles',
+275 verbose parsed spec   rawSpec: '^1.1.0',
+275 verbose parsed spec   spec: '>=1.1.0-0 <2.0.0-0',
+275 verbose parsed spec   type: 'range' }
+276 verbose addNamed [ 'ansi-styles', '>=1.1.0-0 <2.0.0-0' ]
+277 verbose addNamed [ null, '>=1.1.0-0 <2.0.0-0' ]
+278 silly lockFile 276ab7b3-ansi-styles-1-1-0-0-2-0-0-0 ansi-styles@>=1.1.0-0 <2.0.0-0
+279 verbose lock ansi-styles@>=1.1.0-0 <2.0.0-0 /Users/kdesai/.npm/276ab7b3-ansi-styles-1-1-0-0-2-0-0-0.lock
+280 verbose parsed spec { raw: 'escape-string-regexp@^1.0.0',
+280 verbose parsed spec   scope: null,
+280 verbose parsed spec   name: 'escape-string-regexp',
+280 verbose parsed spec   rawSpec: '^1.0.0',
+280 verbose parsed spec   spec: '>=1.0.0-0 <2.0.0-0',
+280 verbose parsed spec   type: 'range' }
+281 verbose addNamed [ 'escape-string-regexp', '>=1.0.0-0 <2.0.0-0' ]
+282 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+283 silly lockFile 9b643b6d-pe-string-regexp-1-0-0-0-2-0-0-0 escape-string-regexp@>=1.0.0-0 <2.0.0-0
+284 verbose lock escape-string-regexp@>=1.0.0-0 <2.0.0-0 /Users/kdesai/.npm/9b643b6d-pe-string-regexp-1-0-0-0-2-0-0-0.lock
+285 verbose parsed spec { raw: 'strip-ansi@^0.3.0',
+285 verbose parsed spec   scope: null,
+285 verbose parsed spec   name: 'strip-ansi',
+285 verbose parsed spec   rawSpec: '^0.3.0',
+285 verbose parsed spec   spec: '>=0.3.0-0 <0.4.0-0',
+285 verbose parsed spec   type: 'range' }
+286 verbose addNamed [ 'strip-ansi', '>=0.3.0-0 <0.4.0-0' ]
+287 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+288 silly lockFile 63dc70cf-strip-ansi-0-3-0-0-0-4-0-0 strip-ansi@>=0.3.0-0 <0.4.0-0
+289 verbose lock strip-ansi@>=0.3.0-0 <0.4.0-0 /Users/kdesai/.npm/63dc70cf-strip-ansi-0-3-0-0-0-4-0-0.lock
+290 verbose parsed spec { raw: 'supports-color@^0.2.0',
+290 verbose parsed spec   scope: null,
+290 verbose parsed spec   name: 'supports-color',
+290 verbose parsed spec   rawSpec: '^0.2.0',
+290 verbose parsed spec   spec: '>=0.2.0-0 <0.3.0-0',
+290 verbose parsed spec   type: 'range' }
+291 verbose addNamed [ 'supports-color', '>=0.2.0-0 <0.3.0-0' ]
+292 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+293 silly lockFile 0d61474b-supports-color-0-2-0-0-0-3-0-0 supports-color@>=0.2.0-0 <0.3.0-0
+294 verbose lock supports-color@>=0.2.0-0 <0.3.0-0 /Users/kdesai/.npm/0d61474b-supports-color-0-2-0-0-0-3-0-0.lock
+295 silly addNameRange { name: 'has-ansi', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+296 verbose mapToRegistry name has-ansi
+297 verbose mapToRegistry uri https://registry.npmjs.org/has-ansi
+298 silly addNameRange { name: 'ansi-styles',
+298 silly addNameRange   range: '>=1.1.0-0 <2.0.0-0',
+298 silly addNameRange   hasData: false }
+299 verbose mapToRegistry name ansi-styles
+300 verbose mapToRegistry uri https://registry.npmjs.org/ansi-styles
+301 silly addNameRange { name: 'escape-string-regexp',
+301 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+301 silly addNameRange   hasData: false }
+302 verbose mapToRegistry name escape-string-regexp
+303 verbose mapToRegistry uri https://registry.npmjs.org/escape-string-regexp
+304 silly addNameRange { name: 'strip-ansi',
+304 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+304 silly addNameRange   hasData: false }
+305 verbose mapToRegistry name strip-ansi
+306 verbose mapToRegistry uri https://registry.npmjs.org/strip-ansi
+307 silly addNameRange { name: 'supports-color',
+307 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+307 silly addNameRange   hasData: false }
+308 verbose mapToRegistry name supports-color
+309 verbose mapToRegistry uri https://registry.npmjs.org/supports-color
+310 silly gunzTarPerm extractEntry lib/hacks/flex-spec.js
+311 silly gunzTarPerm extractEntry lib/hacks/flex-wrap.js
+312 verbose request where is /has-ansi
+313 verbose request registry https://registry.npmjs.org/
+314 verbose request url raw /has-ansi
+315 verbose request url resolving [ 'https://registry.npmjs.org/', './has-ansi' ]
+316 verbose request url resolved https://registry.npmjs.org/has-ansi
+317 verbose request where is https://registry.npmjs.org/has-ansi
+318 verbose request no basic auth needed
+319 info trying registry request attempt 1 at 15:04:00
+320 verbose etag "70OHC4VO6QA147NRMBZ8F0ZNQ"
+321 http GET https://registry.npmjs.org/has-ansi
+322 verbose request where is /ansi-styles
+323 verbose request registry https://registry.npmjs.org/
+324 verbose request url raw /ansi-styles
+325 verbose request url resolving [ 'https://registry.npmjs.org/', './ansi-styles' ]
+326 verbose request url resolved https://registry.npmjs.org/ansi-styles
+327 verbose request where is https://registry.npmjs.org/ansi-styles
+328 verbose request no basic auth needed
+329 info trying registry request attempt 1 at 15:04:00
+330 verbose etag "8DUYGDVUT3XYN1ZADRSXQE2S3"
+331 http GET https://registry.npmjs.org/ansi-styles
+332 verbose request where is /escape-string-regexp
+333 verbose request registry https://registry.npmjs.org/
+334 verbose request url raw /escape-string-regexp
+335 verbose request url resolving [ 'https://registry.npmjs.org/', './escape-string-regexp' ]
+336 verbose request url resolved https://registry.npmjs.org/escape-string-regexp
+337 verbose request where is https://registry.npmjs.org/escape-string-regexp
+338 verbose request no basic auth needed
+339 info trying registry request attempt 1 at 15:04:00
+340 verbose etag "E3T7FDS4I37V09LTER6U83WA4"
+341 http GET https://registry.npmjs.org/escape-string-regexp
+342 verbose request where is /strip-ansi
+343 verbose request registry https://registry.npmjs.org/
+344 verbose request url raw /strip-ansi
+345 verbose request url resolving [ 'https://registry.npmjs.org/', './strip-ansi' ]
+346 verbose request url resolved https://registry.npmjs.org/strip-ansi
+347 verbose request where is https://registry.npmjs.org/strip-ansi
+348 verbose request no basic auth needed
+349 info trying registry request attempt 1 at 15:04:00
+350 verbose etag "1B9MDVP3RWLQYLHWSUL063UK4"
+351 http GET https://registry.npmjs.org/strip-ansi
+352 verbose request where is /supports-color
+353 verbose request registry https://registry.npmjs.org/
+354 verbose request url raw /supports-color
+355 verbose request url resolving [ 'https://registry.npmjs.org/', './supports-color' ]
+356 verbose request url resolved https://registry.npmjs.org/supports-color
+357 verbose request where is https://registry.npmjs.org/supports-color
+358 verbose request no basic auth needed
+359 info trying registry request attempt 1 at 15:04:00
+360 verbose etag "TZG4ZVXGTDO5XGVSYLJF5FPR"
+361 http GET https://registry.npmjs.org/supports-color
+362 silly gunzTarPerm extractEntry lib/hacks/flex.js
+363 silly gunzTarPerm extractEntry lib/hacks/fullscreen.js
+364 silly gunzTarPerm extractEntry lib/hacks/display-flex.js
+365 silly gunzTarPerm extractEntry lib/hacks/gradient.js
+366 silly gunzTarPerm extractEntry lib/hacks/break-inside.js
+367 silly gunzTarPerm extractEntry lib/hacks/justify-content.js
+368 silly gunzTarPerm extractEntry lib/hacks/border-radius.js
+369 silly gunzTarPerm extractEntry lib/hacks/order.js
+370 silly gunzTarPerm extractEntry lib/hacks/border-image.js
+371 silly gunzTarPerm extractEntry lib/hacks/placeholder.js
+372 silly gunzTarPerm extractEntry lib/hacks/background-size.js
+373 silly gunzTarPerm extractEntry lib/hacks/transform-decl.js
+374 silly gunzTarPerm extractEntry lib/hacks/align-self.js
+375 silly gunzTarPerm extractEntry lib/hacks/transform-value.js
+376 silly gunzTarPerm extractEntry lib/hacks/align-items.js
+377 silly gunzTarPerm extractEntry lib/hacks/transition.js
+378 silly gunzTarPerm extractEntry lib/hacks/flex-grow.js
+379 silly lockFile dc3ea304-efixer-node-modules-autoprefixer tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/autoprefixer
+380 silly lockFile dc3ea304-efixer-node-modules-autoprefixer tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/autoprefixer
+381 silly lockFile fc03be6a-m-autoprefixer-2-2-0-package-tgz tar:///Users/kdesai/.npm/autoprefixer/2.2.0/package.tgz
+382 silly lockFile fc03be6a-m-autoprefixer-2-2-0-package-tgz tar:///Users/kdesai/.npm/autoprefixer/2.2.0/package.tgz
+383 info preinstall autoprefixer@2.2.0
+384 verbose readDependencies using package.json deps
+385 verbose readDependencies using package.json deps
+386 verbose cache add [ 'caniuse-db@^1.0.20140727', null ]
+387 verbose cache add spec="caniuse-db@^1.0.20140727" args=["caniuse-db@^1.0.20140727",null]
+388 verbose cache add [ 'fs-extra@~0.10.0', null ]
+389 verbose cache add spec="fs-extra@~0.10.0" args=["fs-extra@~0.10.0",null]
+390 verbose parsed spec { raw: 'caniuse-db@^1.0.20140727',
+390 verbose parsed spec   scope: null,
+390 verbose parsed spec   name: 'caniuse-db',
+390 verbose parsed spec   rawSpec: '^1.0.20140727',
+390 verbose parsed spec   spec: '>=1.0.20140727-0 <2.0.0-0',
+390 verbose parsed spec   type: 'range' }
+391 verbose addNamed [ 'caniuse-db', '>=1.0.20140727-0 <2.0.0-0' ]
+392 verbose addNamed [ null, '>=1.0.20140727-0 <2.0.0-0' ]
+393 silly lockFile 81c85cdf-aniuse-db-1-0-20140727-0-2-0-0-0 caniuse-db@>=1.0.20140727-0 <2.0.0-0
+394 verbose lock caniuse-db@>=1.0.20140727-0 <2.0.0-0 /Users/kdesai/.npm/81c85cdf-aniuse-db-1-0-20140727-0-2-0-0-0.lock
+395 verbose parsed spec { raw: 'fs-extra@~0.10.0',
+395 verbose parsed spec   scope: null,
+395 verbose parsed spec   name: 'fs-extra',
+395 verbose parsed spec   rawSpec: '~0.10.0',
+395 verbose parsed spec   spec: '>=0.10.0-0 <0.11.0-0',
+395 verbose parsed spec   type: 'range' }
+396 verbose addNamed [ 'fs-extra', '>=0.10.0-0 <0.11.0-0' ]
+397 verbose addNamed [ null, '>=0.10.0-0 <0.11.0-0' ]
+398 silly lockFile e22f2ba7-fs-extra-0-10-0-0-0-11-0-0 fs-extra@>=0.10.0-0 <0.11.0-0
+399 verbose lock fs-extra@>=0.10.0-0 <0.11.0-0 /Users/kdesai/.npm/e22f2ba7-fs-extra-0-10-0-0-0-11-0-0.lock
+400 verbose cache add [ 'postcss@~2.1.0', null ]
+401 verbose cache add spec="postcss@~2.1.0" args=["postcss@~2.1.0",null]
+402 verbose parsed spec { raw: 'postcss@~2.1.0',
+402 verbose parsed spec   scope: null,
+402 verbose parsed spec   name: 'postcss',
+402 verbose parsed spec   rawSpec: '~2.1.0',
+402 verbose parsed spec   spec: '>=2.1.0-0 <2.2.0-0',
+402 verbose parsed spec   type: 'range' }
+403 verbose addNamed [ 'postcss', '>=2.1.0-0 <2.2.0-0' ]
+404 verbose addNamed [ null, '>=2.1.0-0 <2.2.0-0' ]
+405 silly lockFile ce57187a-postcss-2-1-0-0-2-2-0-0 postcss@>=2.1.0-0 <2.2.0-0
+406 verbose lock postcss@>=2.1.0-0 <2.2.0-0 /Users/kdesai/.npm/ce57187a-postcss-2-1-0-0-2-2-0-0.lock
+407 silly addNameRange { name: 'caniuse-db',
+407 silly addNameRange   range: '>=1.0.20140727-0 <2.0.0-0',
+407 silly addNameRange   hasData: false }
+408 verbose mapToRegistry name caniuse-db
+409 verbose mapToRegistry uri https://registry.npmjs.org/caniuse-db
+410 silly addNameRange { name: 'fs-extra',
+410 silly addNameRange   range: '>=0.10.0-0 <0.11.0-0',
+410 silly addNameRange   hasData: false }
+411 verbose mapToRegistry name fs-extra
+412 verbose mapToRegistry uri https://registry.npmjs.org/fs-extra
+413 silly addNameRange { name: 'postcss', range: '>=2.1.0-0 <2.2.0-0', hasData: false }
+414 verbose mapToRegistry name postcss
+415 verbose mapToRegistry uri https://registry.npmjs.org/postcss
+416 verbose request where is /caniuse-db
+417 verbose request registry https://registry.npmjs.org/
+418 verbose request url raw /caniuse-db
+419 verbose request url resolving [ 'https://registry.npmjs.org/', './caniuse-db' ]
+420 verbose request url resolved https://registry.npmjs.org/caniuse-db
+421 verbose request where is https://registry.npmjs.org/caniuse-db
+422 verbose request no basic auth needed
+423 info trying registry request attempt 1 at 15:04:00
+424 verbose etag "AS9OUKB0SHNAOL6GPE00OZV7O"
+425 http GET https://registry.npmjs.org/caniuse-db
+426 verbose request where is /fs-extra
+427 verbose request registry https://registry.npmjs.org/
+428 verbose request url raw /fs-extra
+429 verbose request url resolving [ 'https://registry.npmjs.org/', './fs-extra' ]
+430 verbose request url resolved https://registry.npmjs.org/fs-extra
+431 verbose request where is https://registry.npmjs.org/fs-extra
+432 verbose request no basic auth needed
+433 info trying registry request attempt 1 at 15:04:00
+434 verbose etag "6CWRXWPWFBP5AUGO1EYPEP37"
+435 http GET https://registry.npmjs.org/fs-extra
+436 verbose request where is /postcss
+437 verbose request registry https://registry.npmjs.org/
+438 verbose request url raw /postcss
+439 verbose request url resolving [ 'https://registry.npmjs.org/', './postcss' ]
+440 verbose request url resolved https://registry.npmjs.org/postcss
+441 verbose request where is https://registry.npmjs.org/postcss
+442 verbose request no basic auth needed
+443 info trying registry request attempt 1 at 15:04:00
+444 verbose etag "3O7TQ2Q979RVDVJOKPQSBX2EZ"
+445 http GET https://registry.npmjs.org/postcss
+446 http 304 https://registry.npmjs.org/ansi-styles
+447 silly registry.get cb [ 304,
+447 silly registry.get   { date: 'Sun, 17 Aug 2014 05:03:59 GMT',
+447 silly registry.get     server: 'Apache',
+447 silly registry.get     via: '1.1 varnish',
+447 silly registry.get     'last-modified': 'Sun, 17 Aug 2014 05:03:54 GMT',
+447 silly registry.get     'cache-control': 'max-age=60',
+447 silly registry.get     etag: '"8DUYGDVUT3XYN1ZADRSXQE2S3"',
+447 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+447 silly registry.get     'x-cache': 'HIT',
+447 silly registry.get     'x-cache-hits': '2',
+447 silly registry.get     'x-timer': 'S1408251839.016098,VS0,VE0',
+447 silly registry.get     vary: 'Accept',
+447 silly registry.get     'content-length': '0',
+447 silly registry.get     'keep-alive': 'timeout=10, max=50',
+447 silly registry.get     connection: 'Keep-Alive' } ]
+448 verbose etag https://registry.npmjs.org/ansi-styles from cache
+449 silly addNameRange number 2 { name: 'ansi-styles',
+449 silly addNameRange   range: '>=1.1.0-0 <2.0.0-0',
+449 silly addNameRange   hasData: true }
+450 silly addNameRange versions [ 'ansi-styles',
+450 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.2.0', '1.0.0', '1.1.0' ] ]
+451 verbose addNamed [ 'ansi-styles', '1.1.0' ]
+452 verbose addNamed [ '1.1.0', '1.1.0' ]
+453 silly lockFile a78e767e-ansi-styles-1-1-0 ansi-styles@1.1.0
+454 verbose lock ansi-styles@1.1.0 /Users/kdesai/.npm/a78e767e-ansi-styles-1-1-0.lock
+455 silly lockFile a78e767e-ansi-styles-1-1-0 ansi-styles@1.1.0
+456 silly lockFile a78e767e-ansi-styles-1-1-0 ansi-styles@1.1.0
+457 silly lockFile 276ab7b3-ansi-styles-1-1-0-0-2-0-0-0 ansi-styles@>=1.1.0-0 <2.0.0-0
+458 silly lockFile 276ab7b3-ansi-styles-1-1-0-0-2-0-0-0 ansi-styles@>=1.1.0-0 <2.0.0-0
+459 http 304 https://registry.npmjs.org/supports-color
+460 silly registry.get cb [ 304,
+460 silly registry.get   { date: 'Sun, 17 Aug 2014 05:03:59 GMT',
+460 silly registry.get     server: 'Apache',
+460 silly registry.get     via: '1.1 varnish',
+460 silly registry.get     'last-modified': 'Sun, 17 Aug 2014 05:03:54 GMT',
+460 silly registry.get     'cache-control': 'max-age=60',
+460 silly registry.get     etag: '"TZG4ZVXGTDO5XGVSYLJF5FPR"',
+460 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+460 silly registry.get     'x-cache': 'HIT',
+460 silly registry.get     'x-cache-hits': '2',
+460 silly registry.get     'x-timer': 'S1408251839.048161,VS0,VE0',
+460 silly registry.get     vary: 'Accept',
+460 silly registry.get     'content-length': '0',
+460 silly registry.get     'keep-alive': 'timeout=10, max=50',
+460 silly registry.get     connection: 'Keep-Alive' } ]
+461 verbose etag https://registry.npmjs.org/supports-color from cache
+462 http 304 https://registry.npmjs.org/escape-string-regexp
+463 silly registry.get cb [ 304,
+463 silly registry.get   { date: 'Sun, 17 Aug 2014 05:03:59 GMT',
+463 silly registry.get     server: 'Apache',
+463 silly registry.get     via: '1.1 varnish',
+463 silly registry.get     'last-modified': 'Sun, 17 Aug 2014 04:46:17 GMT',
+463 silly registry.get     'cache-control': 'max-age=60',
+463 silly registry.get     etag: '"E3T7FDS4I37V09LTER6U83WA4"',
+463 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+463 silly registry.get     'x-cache': 'HIT',
+463 silly registry.get     'x-cache-hits': '17',
+463 silly registry.get     'x-timer': 'S1408251839.049308,VS0,VE0',
+463 silly registry.get     vary: 'Accept',
+463 silly registry.get     'content-length': '0',
+463 silly registry.get     'keep-alive': 'timeout=10, max=50',
+463 silly registry.get     connection: 'Keep-Alive' } ]
+464 verbose etag https://registry.npmjs.org/escape-string-regexp from cache
+465 http 304 https://registry.npmjs.org/has-ansi
+466 silly registry.get cb [ 304,
+466 silly registry.get   { date: 'Sun, 17 Aug 2014 05:03:59 GMT',
+466 silly registry.get     server: 'Apache',
+466 silly registry.get     via: '1.1 varnish',
+466 silly registry.get     'last-modified': 'Sun, 17 Aug 2014 05:03:59 GMT',
+466 silly registry.get     'cache-control': 'max-age=60',
+466 silly registry.get     etag: '"70OHC4VO6QA147NRMBZ8F0ZNQ"',
+466 silly registry.get     'x-served-by': 'cache-syd1621-SYD',
+466 silly registry.get     'x-cache': 'HIT',
+466 silly registry.get     'x-cache-hits': '1',
+466 silly registry.get     'x-timer': 'S1408251839.051552,VS0,VE0',
+466 silly registry.get     vary: 'Accept',
+466 silly registry.get     'content-length': '0',
+466 silly registry.get     'keep-alive': 'timeout=10, max=50',
+466 silly registry.get     connection: 'Keep-Alive' } ]
+467 verbose etag https://registry.npmjs.org/has-ansi from cache
+468 http 304 https://registry.npmjs.org/strip-ansi
+469 silly registry.get cb [ 304,
+469 silly registry.get   { date: 'Sun, 17 Aug 2014 05:03:59 GMT',
+469 silly registry.get     server: 'Apache',
+469 silly registry.get     via: '1.1 varnish',
+469 silly registry.get     'last-modified': 'Sun, 17 Aug 2014 05:03:59 GMT',
+469 silly registry.get     'cache-control': 'max-age=60',
+469 silly registry.get     etag: '"1B9MDVP3RWLQYLHWSUL063UK4"',
+469 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+469 silly registry.get     'x-cache': 'HIT',
+469 silly registry.get     'x-cache-hits': '1',
+469 silly registry.get     'x-timer': 'S1408251839.053110,VS0,VE0',
+469 silly registry.get     vary: 'Accept',
+469 silly registry.get     'content-length': '0',
+469 silly registry.get     'keep-alive': 'timeout=10, max=50',
+469 silly registry.get     connection: 'Keep-Alive' } ]
+470 verbose etag https://registry.npmjs.org/strip-ansi from cache
+471 http 304 https://registry.npmjs.org/caniuse-db
+472 silly registry.get cb [ 304,
+472 silly registry.get   { date: 'Sun, 17 Aug 2014 05:03:59 GMT',
+472 silly registry.get     server: 'Apache',
+472 silly registry.get     via: '1.1 varnish',
+472 silly registry.get     'last-modified': 'Sun, 17 Aug 2014 05:03:53 GMT',
+472 silly registry.get     'cache-control': 'max-age=60',
+472 silly registry.get     etag: '"AS9OUKB0SHNAOL6GPE00OZV7O"',
+472 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+472 silly registry.get     'x-cache': 'HIT',
+472 silly registry.get     'x-cache-hits': '2',
+472 silly registry.get     'x-timer': 'S1408251839.058066,VS0,VE0',
+472 silly registry.get     vary: 'Accept',
+472 silly registry.get     'content-length': '0',
+472 silly registry.get     'keep-alive': 'timeout=10, max=49',
+472 silly registry.get     connection: 'Keep-Alive' } ]
+473 verbose etag https://registry.npmjs.org/caniuse-db from cache
+474 silly addNameRange number 2 { name: 'supports-color',
+474 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+474 silly addNameRange   hasData: true }
+475 silly addNameRange versions [ 'supports-color', [ '0.2.0', '1.0.0' ] ]
+476 verbose addNamed [ 'supports-color', '0.2.0' ]
+477 verbose addNamed [ '0.2.0', '0.2.0' ]
+478 silly lockFile bafa6883-supports-color-0-2-0 supports-color@0.2.0
+479 verbose lock supports-color@0.2.0 /Users/kdesai/.npm/bafa6883-supports-color-0-2-0.lock
+480 silly addNameRange number 2 { name: 'escape-string-regexp',
+480 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+480 silly addNameRange   hasData: true }
+481 silly addNameRange versions [ 'escape-string-regexp', [ '1.0.0', '1.0.1' ] ]
+482 verbose addNamed [ 'escape-string-regexp', '1.0.1' ]
+483 verbose addNamed [ '1.0.1', '1.0.1' ]
+484 silly lockFile 6bd7a494-escape-string-regexp-1-0-1 escape-string-regexp@1.0.1
+485 verbose lock escape-string-regexp@1.0.1 /Users/kdesai/.npm/6bd7a494-escape-string-regexp-1-0-1.lock
+486 silly addNameRange number 2 { name: 'has-ansi', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+487 silly addNameRange versions [ 'has-ansi', [ '0.1.0', '1.0.0' ] ]
+488 verbose addNamed [ 'has-ansi', '0.1.0' ]
+489 verbose addNamed [ '0.1.0', '0.1.0' ]
+490 silly lockFile dfbb87ff-has-ansi-0-1-0 has-ansi@0.1.0
+491 verbose lock has-ansi@0.1.0 /Users/kdesai/.npm/dfbb87ff-has-ansi-0-1-0.lock
+492 silly addNameRange number 2 { name: 'strip-ansi',
+492 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+492 silly addNameRange   hasData: true }
+493 silly addNameRange versions [ 'strip-ansi',
+493 silly addNameRange   [ '0.1.0',
+493 silly addNameRange     '0.1.1',
+493 silly addNameRange     '0.2.0',
+493 silly addNameRange     '0.2.1',
+493 silly addNameRange     '0.2.2',
+493 silly addNameRange     '0.3.0',
+493 silly addNameRange     '1.0.0',
+493 silly addNameRange     '2.0.0' ] ]
+494 verbose addNamed [ 'strip-ansi', '0.3.0' ]
+495 verbose addNamed [ '0.3.0', '0.3.0' ]
+496 silly lockFile 9d6f190c-strip-ansi-0-3-0 strip-ansi@0.3.0
+497 verbose lock strip-ansi@0.3.0 /Users/kdesai/.npm/9d6f190c-strip-ansi-0-3-0.lock
+498 silly addNameRange number 2 { name: 'caniuse-db',
+498 silly addNameRange   range: '>=1.0.20140727-0 <2.0.0-0',
+498 silly addNameRange   hasData: true }
+499 silly addNameRange versions [ 'caniuse-db',
+499 silly addNameRange   [ '1.0.20140224',
+499 silly addNameRange     '1.0.20140225',
+499 silly addNameRange     '1.0.20140226',
+499 silly addNameRange     '1.0.20140301',
+499 silly addNameRange     '1.0.20140302',
+499 silly addNameRange     '1.0.20140303',
+499 silly addNameRange     '1.0.20140304',
+499 silly addNameRange     '1.0.20140306',
+499 silly addNameRange     '1.0.20140311',
+499 silly addNameRange     '1.0.20140313',
+499 silly addNameRange     '1.0.20140316',
+499 silly addNameRange     '1.0.20140318',
+499 silly addNameRange     '1.0.20140319',
+499 silly addNameRange     '1.0.20140325',
+499 silly addNameRange     '1.0.20140326',
+499 silly addNameRange     '1.0.20140330',
+499 silly addNameRange     '1.0.20140331',
+499 silly addNameRange     '1.0.20140401',
+499 silly addNameRange     '1.0.20140403',
+499 silly addNameRange     '1.0.20140409',
+499 silly addNameRange     '1.0.20140412',
+499 silly addNameRange     '1.0.20140416',
+499 silly addNameRange     '1.0.20140422',
+499 silly addNameRange     '1.0.20140428',
+499 silly addNameRange     '1.0.20140429',
+499 silly addNameRange     '1.0.20140502',
+499 silly addNameRange     '1.0.20140504',
+499 silly addNameRange     '1.0.20140505',
+499 silly addNameRange     '1.0.20140506',
+499 silly addNameRange     '1.0.20140507',
+499 silly addNameRange     '1.0.20140511',
+499 silly addNameRange     '1.0.20140516',
+499 silly addNameRange     '1.0.20140519',
+499 silly addNameRange     '1.0.20140520',
+499 silly addNameRange     '1.0.20140521',
+499 silly addNameRange     '1.0.20140523',
+499 silly addNameRange     '1.0.20140526',
+499 silly addNameRange     '1.0.20140529',
+499 silly addNameRange     '1.0.20140601',
+499 silly addNameRange     '1.0.20140602',
+499 silly addNameRange     '1.0.20140603',
+499 silly addNameRange     '1.0.20140606',
+499 silly addNameRange     '1.0.20140608',
+499 silly addNameRange     '1.0.20140609',
+499 silly addNameRange     '1.0.20140610',
+499 silly addNameRange     '1.0.20140611',
+499 silly addNameRange     '1.0.20140616',
+499 silly addNameRange     '1.0.20140617',
+499 silly addNameRange     '1.0.20140618',
+499 silly addNameRange     '1.0.20140619',
+499 silly addNameRange     '1.0.20140622',
+499 silly addNameRange     '1.0.20140623',
+499 silly addNameRange     '1.0.20140626',
+499 silly addNameRange     '1.0.20140628',
+499 silly addNameRange     '1.0.20140702',
+499 silly addNameRange     '1.0.20140710',
+499 silly addNameRange     '1.0.20140715',
+499 silly addNameRange     '1.0.20140716',
+499 silly addNameRange     '1.0.20140717',
+499 silly addNameRange     '1.0.20140721',
+499 silly addNameRange     '1.0.20140722',
+499 silly addNameRange     '1.0.20140724',
+499 silly addNameRange     '1.0.20140726',
+499 silly addNameRange     '1.0.20140727',
+499 silly addNameRange     '1.0.20140728',
+499 silly addNameRange     '1.0.20140729',
+499 silly addNameRange     '1.0.20140730',
+499 silly addNameRange     '1.0.20140731',
+499 silly addNameRange     '1.0.20140801',
+499 silly addNameRange     '1.0.20140804',
+499 silly addNameRange     '1.0.20140810',
+499 silly addNameRange     '1.0.20140811',
+499 silly addNameRange     '1.0.20140812',
+499 silly addNameRange     '1.0.20140814',
+499 silly addNameRange     '1.0.20140815',
+499 silly addNameRange     '1.0.20140816' ] ]
+500 verbose addNamed [ 'caniuse-db', '1.0.20140816' ]
+501 verbose addNamed [ '1.0.20140816', '1.0.20140816' ]
+502 silly lockFile 2984c872-caniuse-db-1-0-20140816 caniuse-db@1.0.20140816
+503 verbose lock caniuse-db@1.0.20140816 /Users/kdesai/.npm/2984c872-caniuse-db-1-0-20140816.lock
+504 silly lockFile bafa6883-supports-color-0-2-0 supports-color@0.2.0
+505 silly lockFile bafa6883-supports-color-0-2-0 supports-color@0.2.0
+506 silly lockFile 6bd7a494-escape-string-regexp-1-0-1 escape-string-regexp@1.0.1
+507 silly lockFile 6bd7a494-escape-string-regexp-1-0-1 escape-string-regexp@1.0.1
+508 silly lockFile 0d61474b-supports-color-0-2-0-0-0-3-0-0 supports-color@>=0.2.0-0 <0.3.0-0
+509 silly lockFile 0d61474b-supports-color-0-2-0-0-0-3-0-0 supports-color@>=0.2.0-0 <0.3.0-0
+510 silly lockFile 9b643b6d-pe-string-regexp-1-0-0-0-2-0-0-0 escape-string-regexp@>=1.0.0-0 <2.0.0-0
+511 silly lockFile 9b643b6d-pe-string-regexp-1-0-0-0-2-0-0-0 escape-string-regexp@>=1.0.0-0 <2.0.0-0
+512 silly lockFile e7d7b940-e-db-caniuse-db-1-0-20140816-tgz https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.20140816.tgz
+513 verbose lock https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.20140816.tgz /Users/kdesai/.npm/e7d7b940-e-db-caniuse-db-1-0-20140816-tgz.lock
+514 silly lockFile dfbb87ff-has-ansi-0-1-0 has-ansi@0.1.0
+515 silly lockFile dfbb87ff-has-ansi-0-1-0 has-ansi@0.1.0
+516 verbose addRemoteTarball [ 'https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.20140816.tgz',
+516 verbose addRemoteTarball   'fe31a769dc6cee60574b4819ef0b7b48778aaabc' ]
+517 silly lockFile 9d6f190c-strip-ansi-0-3-0 strip-ansi@0.3.0
+518 silly lockFile 9d6f190c-strip-ansi-0-3-0 strip-ansi@0.3.0
+519 silly lockFile fce2323d-has-ansi-0-1-0-0-0-2-0-0 has-ansi@>=0.1.0-0 <0.2.0-0
+520 silly lockFile fce2323d-has-ansi-0-1-0-0-0-2-0-0 has-ansi@>=0.1.0-0 <0.2.0-0
+521 silly lockFile 63dc70cf-strip-ansi-0-3-0-0-0-4-0-0 strip-ansi@>=0.3.0-0 <0.4.0-0
+522 silly lockFile 63dc70cf-strip-ansi-0-3-0-0-0-4-0-0 strip-ansi@>=0.3.0-0 <0.4.0-0
+523 info retry fetch attempt 1 at 15:04:00
+524 verbose fetch to= /var/folders/qr/2m_f0hkn0ls1_g2713bcq3kr0000gp/T/npm-38576-j1pO-SYa/registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.20140816.tgz
+525 silly resolved [ { name: 'ansi-styles',
+525 silly resolved     version: '1.1.0',
+525 silly resolved     description: 'ANSI escape codes for styling strings in the terminal',
+525 silly resolved     license: 'MIT',
+525 silly resolved     repository:
+525 silly resolved      { type: 'git',
+525 silly resolved        url: 'git://github.com/sindresorhus/ansi-styles' },
+525 silly resolved     author:
+525 silly resolved      { name: 'Sindre Sorhus',
+525 silly resolved        email: 'sindresorhus@gmail.com',
+525 silly resolved        url: 'http://sindresorhus.com' },
+525 silly resolved     engines: { node: '>=0.10.0' },
+525 silly resolved     scripts: { test: 'mocha' },
+525 silly resolved     files: [ 'index.js' ],
+525 silly resolved     keywords:
+525 silly resolved      [ 'ansi',
+525 silly resolved        'styles',
+525 silly resolved        'color',
+525 silly resolved        'colour',
+525 silly resolved        'colors',
+525 silly resolved        'terminal',
+525 silly resolved        'console',
+525 silly resolved        'cli',
+525 silly resolved        'string',
+525 silly resolved        'tty',
+525 silly resolved        'escape',
+525 silly resolved        'formatting',
+525 silly resolved        'rgb',
+525 silly resolved        '256',
+525 silly resolved        'shell',
+525 silly resolved        'xterm',
+525 silly resolved        'log',
+525 silly resolved        'logging',
+525 silly resolved        'command-line',
+525 silly resolved        'text' ],
+525 silly resolved     devDependencies: { mocha: '*' },
+525 silly resolved     bugs: { url: 'https://github.com/sindresorhus/ansi-styles/issues' },
+525 silly resolved     homepage: 'https://github.com/sindresorhus/ansi-styles',
+525 silly resolved     _id: 'ansi-styles@1.1.0',
+525 silly resolved     _shasum: 'eaecbf66cd706882760b2f4691582b8f55d7a7de',
+525 silly resolved     _from: 'ansi-styles@>=1.1.0-0 <2.0.0-0',
+525 silly resolved     _npmVersion: '1.4.9',
+525 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+525 silly resolved     maintainers: [ [Object] ],
+525 silly resolved     dist:
+525 silly resolved      { shasum: 'eaecbf66cd706882760b2f4691582b8f55d7a7de',
+525 silly resolved        tarball: 'http://registry.npmjs.org/ansi-styles/-/ansi-styles-1.1.0.tgz' },
+525 silly resolved     directories: {},
+525 silly resolved     _resolved: 'https://registry.npmjs.org/ansi-styles/-/ansi-styles-1.1.0.tgz',
+525 silly resolved     readme: 'ERROR: No README data found!' },
+525 silly resolved   { name: 'escape-string-regexp',
+525 silly resolved     version: '1.0.1',
+525 silly resolved     description: 'Escape RegExp special characters',
+525 silly resolved     license: 'MIT',
+525 silly resolved     repository:
+525 silly resolved      { type: 'git',
+525 silly resolved        url: 'git://github.com/sindresorhus/escape-string-regexp' },
+525 silly resolved     author:
+525 silly resolved      { name: 'Sindre Sorhus',
+525 silly resolved        email: 'sindresorhus@gmail.com',
+525 silly resolved        url: 'http://sindresorhus.com' },
+525 silly resolved     engines: { node: '>=0.10.0' },
+525 silly resolved     scripts: { test: 'mocha' },
+525 silly resolved     files: [ 'index.js' ],
+525 silly resolved     keywords:
+525 silly resolved      [ 'regex',
+525 silly resolved        'regexp',
+525 silly resolved        're',
+525 silly resolved        'regular',
+525 silly resolved        'expression',
+525 silly resolved        'escape',
+525 silly resolved        'string',
+525 silly resolved        'str',
+525 silly resolved        'special',
+525 silly resolved        'characters' ],
+525 silly resolved     devDependencies: { mocha: '*' },
+525 silly resolved     gitHead: '7aba3933a8492584a30cba5bf6c54f7530a9d1b0',
+525 silly resolved     bugs: { url: 'https://github.com/sindresorhus/escape-string-regexp/issues' },
+525 silly resolved     homepage: 'https://github.com/sindresorhus/escape-string-regexp',
+525 silly resolved     _id: 'escape-string-regexp@1.0.1',
+525 silly resolved     _shasum: '78c76393afb84f102230d949a6125c7f3cf65904',
+525 silly resolved     _from: 'escape-string-regexp@>=1.0.0-0 <2.0.0-0',
+525 silly resolved     _npmVersion: '1.4.14',
+525 silly resolved     _npmUser: { name: 'jbnicolai', email: 'jappelman@xebia.com' },
+525 silly resolved     maintainers: [ [Object], [Object] ],
+525 silly resolved     dist:
+525 silly resolved      { shasum: '78c76393afb84f102230d949a6125c7f3cf65904',
+525 silly resolved        tarball: 'http://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.1.tgz' },
+525 silly resolved     directories: {},
+525 silly resolved     _resolved: 'https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.1.tgz',
+525 silly resolved     readme: 'ERROR: No README data found!' },
+525 silly resolved   { name: 'supports-color',
+525 silly resolved     version: '0.2.0',
+525 silly resolved     description: 'Detect whether a terminal supports color',
+525 silly resolved     license: 'MIT',
+525 silly resolved     repository:
+525 silly resolved      { type: 'git',
+525 silly resolved        url: 'git://github.com/sindresorhus/supports-color' },
+525 silly resolved     bin: { 'supports-color': 'cli.js' },
+525 silly resolved     author:
+525 silly resolved      { name: 'Sindre Sorhus',
+525 silly resolved        email: 'sindresorhus@gmail.com',
+525 silly resolved        url: 'http://sindresorhus.com' },
+525 silly resolved     engines: { node: '>=0.10.0' },
+525 silly resolved     scripts: { test: 'mocha' },
+525 silly resolved     files: [ 'index.js', 'cli.js' ],
+525 silly resolved     keywords:
+525 silly resolved      [ 'cli',
+525 silly resolved        'bin',
+525 silly resolved        'color',
+525 silly resolved        'colour',
+525 silly resolved        'colors',
+525 silly resolved        'terminal',
+525 silly resolved        'console',
+525 silly resolved        'cli',
+525 silly resolved        'ansi',
+525 silly resolved        'styles',
+525 silly resolved        'tty',
+525 silly resolved        'rgb',
+525 silly resolved        '256',
+525 silly resolved        'shell',
+525 silly resolved        'xterm',
+525 silly resolved        'command-line',
+525 silly resolved        'support',
+525 silly resolved        'supports',
+525 silly resolved        'capability',
+525 silly resolved        'detect' ],
+525 silly resolved     devDependencies: { mocha: '*' },
+525 silly resolved     bugs: { url: 'https://github.com/sindresorhus/supports-color/issues' },
+525 silly resolved     homepage: 'https://github.com/sindresorhus/supports-color',
+525 silly resolved     _id: 'supports-color@0.2.0',
+525 silly resolved     _shasum: 'd92de2694eb3f67323973d7ae3d8b55b4c22190a',
+525 silly resolved     _from: 'supports-color@>=0.2.0-0 <0.3.0-0',
+525 silly resolved     _npmVersion: '1.4.9',
+525 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+525 silly resolved     maintainers: [ [Object] ],
+525 silly resolved     dist:
+525 silly resolved      { shasum: 'd92de2694eb3f67323973d7ae3d8b55b4c22190a',
+525 silly resolved        tarball: 'http://registry.npmjs.org/supports-color/-/supports-color-0.2.0.tgz' },
+525 silly resolved     directories: {},
+525 silly resolved     _resolved: 'https://registry.npmjs.org/supports-color/-/supports-color-0.2.0.tgz',
+525 silly resolved     readme: 'ERROR: No README data found!' },
+525 silly resolved   { name: 'has-ansi',
+525 silly resolved     version: '0.1.0',
+525 silly resolved     description: 'Check if a string has ANSI escape codes',
+525 silly resolved     license: 'MIT',
+525 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/has-ansi' },
+525 silly resolved     bin: { 'has-ansi': 'cli.js' },
+525 silly resolved     author:
+525 silly resolved      { name: 'Sindre Sorhus',
+525 silly resolved        email: 'sindresorhus@gmail.com',
+525 silly resolved        url: 'http://sindresorhus.com' },
+525 silly resolved     engines: { node: '>=0.10.0' },
+525 silly resolved     scripts: { test: 'mocha' },
+525 silly resolved     files: [ 'index.js', 'cli.js' ],
+525 silly resolved     keywords:
+525 silly resolved      [ 'cli',
+525 silly resolved        'bin',
+525 silly resolved        'ansi',
+525 silly resolved        'styles',
+525 silly resolved        'color',
+525 silly resolved        'colour',
+525 silly resolved        'colors',
+525 silly resolved        'terminal',
+525 silly resolved        'console',
+525 silly resolved        'string',
+525 silly resolved        'tty',
+525 silly resolved        'escape',
+525 silly resolved        'shell',
+525 silly resolved        'xterm',
+525 silly resolved        'command-line',
+525 silly resolved        'text',
+525 silly resolved        'regex',
+525 silly resolved        'regexp',
+525 silly resolved        're',
+525 silly resolved        'match',
+525 silly resolved        'test',
+525 silly resolved        'find',
+525 silly resolved        'pattern',
+525 silly resolved        'has' ],
+525 silly resolved     dependencies: { 'ansi-regex': '^0.2.0' },
+525 silly resolved     devDependencies: { mocha: '*' },
+525 silly resolved     bugs: { url: 'https://github.com/sindresorhus/has-ansi/issues' },
+525 silly resolved     homepage: 'https://github.com/sindresorhus/has-ansi',
+525 silly resolved     _id: 'has-ansi@0.1.0',
+525 silly resolved     _shasum: '84f265aae8c0e6a88a12d7022894b7568894c62e',
+525 silly resolved     _from: 'has-ansi@>=0.1.0-0 <0.2.0-0',
+525 silly resolved     _npmVersion: '1.4.9',
+525 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+525 silly resolved     maintainers: [ [Object] ],
+525 silly resolved     dist:
+525 silly resolved      { shasum: '84f265aae8c0e6a88a12d7022894b7568894c62e',
+525 silly resolved        tarball: 'http://registry.npmjs.org/has-ansi/-/has-ansi-0.1.0.tgz' },
+525 silly resolved     directories: {},
+525 silly resolved     _resolved: 'https://registry.npmjs.org/has-ansi/-/has-ansi-0.1.0.tgz',
+525 silly resolved     readme: 'ERROR: No README data found!' },
+525 silly resolved   { name: 'strip-ansi',
+525 silly resolved     version: '0.3.0',
+525 silly resolved     description: 'Strip ANSI escape codes',
+525 silly resolved     license: 'MIT',
+525 silly resolved     bin: { 'strip-ansi': 'cli.js' },
+525 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/strip-ansi' },
+525 silly resolved     author:
+525 silly resolved      { name: 'Sindre Sorhus',
+525 silly resolved        email: 'sindresorhus@gmail.com',
+525 silly resolved        url: 'http://sindresorhus.com' },
+525 silly resolved     engines: { node: '>=0.10.0' },
+525 silly resolved     scripts: { test: 'mocha' },
+525 silly resolved     files: [ 'index.js', 'cli.js' ],
+525 silly resolved     keywords:
+525 silly resolved      [ 'strip',
+525 silly resolved        'trim',
+525 silly resolved        'remove',
+525 silly resolved        'ansi',
+525 silly resolved        'styles',
+525 silly resolved        'color',
+525 silly resolved        'colour',
+525 silly resolved        'colors',
+525 silly resolved        'terminal',
+525 silly resolved        'console',
+525 silly resolved        'cli',
+525 silly resolved        'string',
+525 silly resolved        'tty',
+525 silly resolved        'escape',
+525 silly resolved        'formatting',
+525 silly resolved        'rgb',
+525 silly resolved        '256',
+525 silly resolved        'shell',
+525 silly resolved        'xterm',
+525 silly resolved        'log',
+525 silly resolved        'logging',
+525 silly resolved        'command-line',
+525 silly resolved        'text' ],
+525 silly resolved     dependencies: { 'ansi-regex': '^0.2.1' },
+525 silly resolved     devDependencies: { mocha: '*' },
+525 silly resolved     bugs: { url: 'https://github.com/sindresorhus/strip-ansi/issues' },
+525 silly resolved     homepage: 'https://github.com/sindresorhus/strip-ansi',
+525 silly resolved     _id: 'strip-ansi@0.3.0',
+525 silly resolved     _shasum: '25f48ea22ca79187f3174a4db8759347bb126220',
+525 silly resolved     _from: 'strip-ansi@>=0.3.0-0 <0.4.0-0',
+525 silly resolved     _npmVersion: '1.4.9',
+525 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+525 silly resolved     maintainers: [ [Object] ],
+525 silly resolved     dist:
+525 silly resolved      { shasum: '25f48ea22ca79187f3174a4db8759347bb126220',
+525 silly resolved        tarball: 'http://registry.npmjs.org/strip-ansi/-/strip-ansi-0.3.0.tgz' },
+525 silly resolved     directories: {},
+525 silly resolved     _resolved: 'https://registry.npmjs.org/strip-ansi/-/strip-ansi-0.3.0.tgz',
+525 silly resolved     readme: 'ERROR: No README data found!' } ]
+526 info install ansi-styles@1.1.0 into /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk
+527 info install escape-string-regexp@1.0.1 into /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk
+528 info install supports-color@0.2.0 into /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk
+529 info install has-ansi@0.1.0 into /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk
+530 info install strip-ansi@0.3.0 into /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk
+531 info installOne ansi-styles@1.1.0
+532 info installOne escape-string-regexp@1.0.1
+533 info installOne supports-color@0.2.0
+534 info installOne has-ansi@0.1.0
+535 info installOne strip-ansi@0.3.0
+536 verbose node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/ansi-styles unbuild
+537 verbose node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/escape-string-regexp unbuild
+538 verbose node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/supports-color unbuild
+539 verbose node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/has-ansi unbuild
+540 verbose node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/strip-ansi unbuild
+541 http GET https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.20140816.tgz
+542 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/ansi-styles
+543 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/escape-string-regexp
+544 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/supports-color
+545 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/has-ansi
+546 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/strip-ansi
+547 verbose tar unpack /Users/kdesai/.npm/ansi-styles/1.1.0/package.tgz
+548 silly lockFile 7bd5e4b6-s-chalk-node-modules-ansi-styles tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/ansi-styles
+549 verbose lock tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/ansi-styles /Users/kdesai/.npm/7bd5e4b6-s-chalk-node-modules-ansi-styles.lock
+550 silly lockFile 852d4fb2-pm-ansi-styles-1-1-0-package-tgz tar:///Users/kdesai/.npm/ansi-styles/1.1.0/package.tgz
+551 verbose lock tar:///Users/kdesai/.npm/ansi-styles/1.1.0/package.tgz /Users/kdesai/.npm/852d4fb2-pm-ansi-styles-1-1-0-package-tgz.lock
+552 verbose tar unpack /Users/kdesai/.npm/escape-string-regexp/1.0.1/package.tgz
+553 silly lockFile e3346178-ode-modules-escape-string-regexp tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/escape-string-regexp
+554 verbose lock tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/escape-string-regexp /Users/kdesai/.npm/e3346178-ode-modules-escape-string-regexp.lock
+555 silly lockFile c791e39c--string-regexp-1-0-1-package-tgz tar:///Users/kdesai/.npm/escape-string-regexp/1.0.1/package.tgz
+556 verbose lock tar:///Users/kdesai/.npm/escape-string-regexp/1.0.1/package.tgz /Users/kdesai/.npm/c791e39c--string-regexp-1-0-1-package-tgz.lock
+557 verbose tar unpack /Users/kdesai/.npm/supports-color/0.2.0/package.tgz
+558 silly lockFile df89868b-halk-node-modules-supports-color tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/supports-color
+559 verbose lock tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/supports-color /Users/kdesai/.npm/df89868b-halk-node-modules-supports-color.lock
+560 silly lockFile 272030db-supports-color-0-2-0-package-tgz tar:///Users/kdesai/.npm/supports-color/0.2.0/package.tgz
+561 verbose lock tar:///Users/kdesai/.npm/supports-color/0.2.0/package.tgz /Users/kdesai/.npm/272030db-supports-color-0-2-0-package-tgz.lock
+562 verbose tar unpack /Users/kdesai/.npm/has-ansi/0.1.0/package.tgz
+563 silly lockFile 7d570dc9-ules-chalk-node-modules-has-ansi tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/has-ansi
+564 verbose lock tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/has-ansi /Users/kdesai/.npm/7d570dc9-ules-chalk-node-modules-has-ansi.lock
+565 silly lockFile 70cbf818-i-npm-has-ansi-0-1-0-package-tgz tar:///Users/kdesai/.npm/has-ansi/0.1.0/package.tgz
+566 verbose lock tar:///Users/kdesai/.npm/has-ansi/0.1.0/package.tgz /Users/kdesai/.npm/70cbf818-i-npm-has-ansi-0-1-0-package-tgz.lock
+567 verbose tar unpack /Users/kdesai/.npm/strip-ansi/0.3.0/package.tgz
+568 silly lockFile adb85ec3-es-chalk-node-modules-strip-ansi tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/strip-ansi
+569 verbose lock tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/strip-ansi /Users/kdesai/.npm/adb85ec3-es-chalk-node-modules-strip-ansi.lock
+570 silly lockFile 01058a70-npm-strip-ansi-0-3-0-package-tgz tar:///Users/kdesai/.npm/strip-ansi/0.3.0/package.tgz
+571 verbose lock tar:///Users/kdesai/.npm/strip-ansi/0.3.0/package.tgz /Users/kdesai/.npm/01058a70-npm-strip-ansi-0-3-0-package-tgz.lock
+572 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/ansi-styles
+573 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/escape-string-regexp
+574 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/supports-color
+575 silly gunzTarPerm modes [ '755', '644' ]
+576 silly gunzTarPerm modes [ '755', '644' ]
+577 silly gunzTarPerm modes [ '755', '644' ]
+578 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/has-ansi
+579 silly gunzTarPerm modes [ '755', '644' ]
+580 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/strip-ansi
+581 silly gunzTarPerm modes [ '755', '644' ]
+582 silly gunzTarPerm extractEntry package.json
+583 silly gunzTarPerm extractEntry package.json
+584 silly gunzTarPerm extractEntry package.json
+585 silly gunzTarPerm extractEntry package.json
+586 silly gunzTarPerm extractEntry package.json
+587 silly gunzTarPerm extractEntry index.js
+588 silly gunzTarPerm extractEntry readme.md
+589 silly gunzTarPerm extractEntry index.js
+590 silly gunzTarPerm extractEntry readme.md
+591 silly gunzTarPerm extractEntry cli.js
+592 silly gunzTarPerm extractEntry index.js
+593 silly gunzTarPerm extractEntry cli.js
+594 silly gunzTarPerm extractEntry index.js
+595 silly gunzTarPerm extractEntry cli.js
+596 silly gunzTarPerm extractEntry index.js
+597 silly gunzTarPerm extractEntry readme.md
+598 silly gunzTarPerm extractEntry readme.md
+599 silly gunzTarPerm extractEntry readme.md
+600 http 304 https://registry.npmjs.org/fs-extra
+601 silly registry.get cb [ 304,
+601 silly registry.get   { date: 'Sun, 17 Aug 2014 05:03:59 GMT',
+601 silly registry.get     server: 'Apache',
+601 silly registry.get     via: '1.1 varnish',
+601 silly registry.get     'last-modified': 'Sun, 17 Aug 2014 05:03:59 GMT',
+601 silly registry.get     'cache-control': 'max-age=60',
+601 silly registry.get     etag: '"6CWRXWPWFBP5AUGO1EYPEP37"',
+601 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+601 silly registry.get     'x-cache': 'HIT',
+601 silly registry.get     'x-cache-hits': '1',
+601 silly registry.get     'x-timer': 'S1408251839.095131,VS0,VE0',
+601 silly registry.get     vary: 'Accept',
+601 silly registry.get     'content-length': '0',
+601 silly registry.get     'keep-alive': 'timeout=10, max=49',
+601 silly registry.get     connection: 'Keep-Alive' } ]
+602 verbose etag https://registry.npmjs.org/fs-extra from cache
+603 http 304 https://registry.npmjs.org/postcss
+604 silly registry.get cb [ 304,
+604 silly registry.get   { date: 'Sun, 17 Aug 2014 05:03:59 GMT',
+604 silly registry.get     server: 'Apache',
+604 silly registry.get     via: '1.1 varnish',
+604 silly registry.get     'last-modified': 'Sun, 17 Aug 2014 05:03:16 GMT',
+604 silly registry.get     'cache-control': 'max-age=60',
+604 silly registry.get     etag: '"3O7TQ2Q979RVDVJOKPQSBX2EZ"',
+604 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+604 silly registry.get     'x-cache': 'HIT',
+604 silly registry.get     'x-cache-hits': '2',
+604 silly registry.get     'x-timer': 'S1408251839.096215,VS0,VE0',
+604 silly registry.get     vary: 'Accept',
+604 silly registry.get     'content-length': '0',
+604 silly registry.get     'keep-alive': 'timeout=10, max=49',
+604 silly registry.get     connection: 'Keep-Alive' } ]
+605 verbose etag https://registry.npmjs.org/postcss from cache
+606 silly addNameRange number 2 { name: 'fs-extra',
+606 silly addNameRange   range: '>=0.10.0-0 <0.11.0-0',
+606 silly addNameRange   hasData: true }
+607 silly addNameRange versions [ 'fs-extra',
+607 silly addNameRange   [ '0.0.1',
+607 silly addNameRange     '0.0.11',
+607 silly addNameRange     '0.0.3',
+607 silly addNameRange     '0.0.4',
+607 silly addNameRange     '0.1.0',
+607 silly addNameRange     '0.1.1',
+607 silly addNameRange     '0.1.2',
+607 silly addNameRange     '0.1.3',
+607 silly addNameRange     '0.2.0',
+607 silly addNameRange     '0.2.1',
+607 silly addNameRange     '0.3.0',
+607 silly addNameRange     '0.3.1',
+607 silly addNameRange     '0.3.2',
+607 silly addNameRange     '0.4.0',
+607 silly addNameRange     '0.5.0',
+607 silly addNameRange     '0.6.0',
+607 silly addNameRange     '0.6.1',
+607 silly addNameRange     '0.6.2',
+607 silly addNameRange     '0.6.3',
+607 silly addNameRange     '0.6.4',
+607 silly addNameRange     '0.7.0',
+607 silly addNameRange     '0.7.1',
+607 silly addNameRange     '0.8.0',
+607 silly addNameRange     '0.8.1',
+607 silly addNameRange     '0.9.0',
+607 silly addNameRange     '0.9.1',
+607 silly addNameRange     '0.10.0',
+607 silly addNameRange     '0.11.0' ] ]
+608 verbose addNamed [ 'fs-extra', '0.10.0' ]
+609 verbose addNamed [ '0.10.0', '0.10.0' ]
+610 silly lockFile 45e75c9d-fs-extra-0-10-0 fs-extra@0.10.0
+611 verbose lock fs-extra@0.10.0 /Users/kdesai/.npm/45e75c9d-fs-extra-0-10-0.lock
+612 silly addNameRange number 2 { name: 'postcss', range: '>=2.1.0-0 <2.2.0-0', hasData: true }
+613 silly addNameRange versions [ 'postcss',
+613 silly addNameRange   [ '0.1.0',
+613 silly addNameRange     '0.2.0',
+613 silly addNameRange     '0.3.0',
+613 silly addNameRange     '0.3.1',
+613 silly addNameRange     '0.3.2',
+613 silly addNameRange     '0.3.3',
+613 silly addNameRange     '0.3.4',
+613 silly addNameRange     '0.3.5',
+613 silly addNameRange     '1.0.0',
+613 silly addNameRange     '2.0.0',
+613 silly addNameRange     '2.1.0',
+613 silly addNameRange     '2.1.1',
+613 silly addNameRange     '2.1.2' ] ]
+614 verbose addNamed [ 'postcss', '2.1.2' ]
+615 verbose addNamed [ '2.1.2', '2.1.2' ]
+616 silly lockFile 4b457e92-postcss-2-1-2 postcss@2.1.2
+617 verbose lock postcss@2.1.2 /Users/kdesai/.npm/4b457e92-postcss-2-1-2.lock
+618 silly lockFile 45e75c9d-fs-extra-0-10-0 fs-extra@0.10.0
+619 silly lockFile 45e75c9d-fs-extra-0-10-0 fs-extra@0.10.0
+620 silly lockFile 4b457e92-postcss-2-1-2 postcss@2.1.2
+621 silly lockFile 4b457e92-postcss-2-1-2 postcss@2.1.2
+622 silly lockFile e22f2ba7-fs-extra-0-10-0-0-0-11-0-0 fs-extra@>=0.10.0-0 <0.11.0-0
+623 silly lockFile e22f2ba7-fs-extra-0-10-0-0-0-11-0-0 fs-extra@>=0.10.0-0 <0.11.0-0
+624 silly lockFile ce57187a-postcss-2-1-0-0-2-2-0-0 postcss@>=2.1.0-0 <2.2.0-0
+625 silly lockFile ce57187a-postcss-2-1-0-0-2-2-0-0 postcss@>=2.1.0-0 <2.2.0-0
+626 silly lockFile e3346178-ode-modules-escape-string-regexp tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/escape-string-regexp
+627 silly lockFile e3346178-ode-modules-escape-string-regexp tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/escape-string-regexp
+628 silly lockFile c791e39c--string-regexp-1-0-1-package-tgz tar:///Users/kdesai/.npm/escape-string-regexp/1.0.1/package.tgz
+629 silly lockFile c791e39c--string-regexp-1-0-1-package-tgz tar:///Users/kdesai/.npm/escape-string-regexp/1.0.1/package.tgz
+630 silly lockFile 7bd5e4b6-s-chalk-node-modules-ansi-styles tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/ansi-styles
+631 silly lockFile 7bd5e4b6-s-chalk-node-modules-ansi-styles tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/ansi-styles
+632 silly lockFile 852d4fb2-pm-ansi-styles-1-1-0-package-tgz tar:///Users/kdesai/.npm/ansi-styles/1.1.0/package.tgz
+633 silly lockFile 852d4fb2-pm-ansi-styles-1-1-0-package-tgz tar:///Users/kdesai/.npm/ansi-styles/1.1.0/package.tgz
+634 info preinstall escape-string-regexp@1.0.1
+635 info preinstall ansi-styles@1.1.0
+636 verbose readDependencies using package.json deps
+637 silly lockFile adb85ec3-es-chalk-node-modules-strip-ansi tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/strip-ansi
+638 silly lockFile adb85ec3-es-chalk-node-modules-strip-ansi tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/strip-ansi
+639 silly lockFile 7d570dc9-ules-chalk-node-modules-has-ansi tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/has-ansi
+640 silly lockFile 7d570dc9-ules-chalk-node-modules-has-ansi tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/has-ansi
+641 silly lockFile df89868b-halk-node-modules-supports-color tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/supports-color
+642 silly lockFile df89868b-halk-node-modules-supports-color tar:///Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/supports-color
+643 verbose readDependencies using package.json deps
+644 silly resolved []
+645 verbose about to build /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/escape-string-regexp
+646 info build /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/escape-string-regexp
+647 verbose linkStuff [ false,
+647 verbose linkStuff   false,
+647 verbose linkStuff   false,
+647 verbose linkStuff   '/Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules' ]
+648 info linkStuff escape-string-regexp@1.0.1
+649 verbose linkBins escape-string-regexp@1.0.1
+650 verbose linkMans escape-string-regexp@1.0.1
+651 verbose rebuildBundles escape-string-regexp@1.0.1
+652 verbose readDependencies using package.json deps
+653 silly lockFile 01058a70-npm-strip-ansi-0-3-0-package-tgz tar:///Users/kdesai/.npm/strip-ansi/0.3.0/package.tgz
+654 silly lockFile 01058a70-npm-strip-ansi-0-3-0-package-tgz tar:///Users/kdesai/.npm/strip-ansi/0.3.0/package.tgz
+655 silly lockFile 70cbf818-i-npm-has-ansi-0-1-0-package-tgz tar:///Users/kdesai/.npm/has-ansi/0.1.0/package.tgz
+656 silly lockFile 70cbf818-i-npm-has-ansi-0-1-0-package-tgz tar:///Users/kdesai/.npm/has-ansi/0.1.0/package.tgz
+657 silly lockFile 272030db-supports-color-0-2-0-package-tgz tar:///Users/kdesai/.npm/supports-color/0.2.0/package.tgz
+658 silly lockFile 272030db-supports-color-0-2-0-package-tgz tar:///Users/kdesai/.npm/supports-color/0.2.0/package.tgz
+659 info install escape-string-regexp@1.0.1
+660 verbose readDependencies using package.json deps
+661 silly resolved []
+662 verbose about to build /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/ansi-styles
+663 info build /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/ansi-styles
+664 verbose linkStuff [ false,
+664 verbose linkStuff   false,
+664 verbose linkStuff   false,
+664 verbose linkStuff   '/Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules' ]
+665 info linkStuff ansi-styles@1.1.0
+666 verbose linkBins ansi-styles@1.1.0
+667 verbose linkMans ansi-styles@1.1.0
+668 verbose rebuildBundles ansi-styles@1.1.0
+669 info install ansi-styles@1.1.0
+670 info postinstall escape-string-regexp@1.0.1
+671 info postinstall ansi-styles@1.1.0
+672 info preinstall strip-ansi@0.3.0
+673 info preinstall has-ansi@0.1.0
+674 info preinstall supports-color@0.2.0
+675 verbose readDependencies using package.json deps
+676 verbose readDependencies using package.json deps
+677 verbose readDependencies using package.json deps
+678 verbose readDependencies using package.json deps
+679 verbose readDependencies using package.json deps
+680 verbose readDependencies using package.json deps
+681 silly resolved []
+682 verbose about to build /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/supports-color
+683 info build /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/supports-color
+684 verbose linkStuff [ false,
+684 verbose linkStuff   false,
+684 verbose linkStuff   false,
+684 verbose linkStuff   '/Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules' ]
+685 info linkStuff supports-color@0.2.0
+686 verbose linkBins supports-color@0.2.0
+687 verbose link bins [ { 'supports-color': 'cli.js' },
+687 verbose link bins   '/Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/.bin',
+687 verbose link bins   false ]
+688 verbose linkMans supports-color@0.2.0
+689 verbose rebuildBundles supports-color@0.2.0
+690 verbose cache add [ 'ansi-regex@^0.2.1', null ]
+691 verbose cache add spec="ansi-regex@^0.2.1" args=["ansi-regex@^0.2.1",null]
+692 verbose parsed spec { raw: 'ansi-regex@^0.2.1',
+692 verbose parsed spec   scope: null,
+692 verbose parsed spec   name: 'ansi-regex',
+692 verbose parsed spec   rawSpec: '^0.2.1',
+692 verbose parsed spec   spec: '>=0.2.1-0 <0.3.0-0',
+692 verbose parsed spec   type: 'range' }
+693 verbose addNamed [ 'ansi-regex', '>=0.2.1-0 <0.3.0-0' ]
+694 verbose addNamed [ null, '>=0.2.1-0 <0.3.0-0' ]
+695 silly lockFile 49be95f3-ansi-regex-0-2-1-0-0-3-0-0 ansi-regex@>=0.2.1-0 <0.3.0-0
+696 verbose lock ansi-regex@>=0.2.1-0 <0.3.0-0 /Users/kdesai/.npm/49be95f3-ansi-regex-0-2-1-0-0-3-0-0.lock
+697 verbose cache add [ 'ansi-regex@^0.2.0', null ]
+698 verbose cache add spec="ansi-regex@^0.2.0" args=["ansi-regex@^0.2.0",null]
+699 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/.bin/supports-color
+700 verbose parsed spec { raw: 'ansi-regex@^0.2.0',
+700 verbose parsed spec   scope: null,
+700 verbose parsed spec   name: 'ansi-regex',
+700 verbose parsed spec   rawSpec: '^0.2.0',
+700 verbose parsed spec   spec: '>=0.2.0-0 <0.3.0-0',
+700 verbose parsed spec   type: 'range' }
+701 verbose addNamed [ 'ansi-regex', '>=0.2.0-0 <0.3.0-0' ]
+702 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+703 silly lockFile 8483640b-ansi-regex-0-2-0-0-0-3-0-0 ansi-regex@>=0.2.0-0 <0.3.0-0
+704 verbose lock ansi-regex@>=0.2.0-0 <0.3.0-0 /Users/kdesai/.npm/8483640b-ansi-regex-0-2-0-0-0-3-0-0.lock
+705 silly addNameRange { name: 'ansi-regex',
+705 silly addNameRange   range: '>=0.2.1-0 <0.3.0-0',
+705 silly addNameRange   hasData: false }
+706 verbose mapToRegistry name ansi-regex
+707 verbose mapToRegistry uri https://registry.npmjs.org/ansi-regex
+708 silly addNameRange { name: 'ansi-regex',
+708 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+708 silly addNameRange   hasData: false }
+709 verbose mapToRegistry name ansi-regex
+710 verbose mapToRegistry uri https://registry.npmjs.org/ansi-regex
+711 info install supports-color@0.2.0
+712 verbose request where is /ansi-regex
+713 verbose request registry https://registry.npmjs.org/
+714 verbose request url raw /ansi-regex
+715 verbose request url resolving [ 'https://registry.npmjs.org/', './ansi-regex' ]
+716 verbose request url resolved https://registry.npmjs.org/ansi-regex
+717 verbose request where is https://registry.npmjs.org/ansi-regex
+718 verbose request no basic auth needed
+719 info trying registry request attempt 1 at 15:04:00
+720 verbose etag "6PQG1DJYR33LIK7W0VVZHET5J"
+721 http GET https://registry.npmjs.org/ansi-regex
+722 info postinstall supports-color@0.2.0
+723 verbose request where is /ansi-regex
+724 verbose request registry https://registry.npmjs.org/
+725 verbose request url raw /ansi-regex
+726 verbose request url resolving [ 'https://registry.npmjs.org/', './ansi-regex' ]
+727 verbose request url resolved https://registry.npmjs.org/ansi-regex
+728 verbose request where is https://registry.npmjs.org/ansi-regex
+729 verbose request no basic auth needed
+730 info trying registry request attempt 1 at 15:04:00
+731 verbose etag "6PQG1DJYR33LIK7W0VVZHET5J"
+732 http GET https://registry.npmjs.org/ansi-regex
+733 http 200 https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.20140816.tgz
+734 silly lockFile e7d7b940-e-db-caniuse-db-1-0-20140816-tgz https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.20140816.tgz
+735 silly lockFile e7d7b940-e-db-caniuse-db-1-0-20140816-tgz https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.20140816.tgz
+736 silly lockFile 2984c872-caniuse-db-1-0-20140816 caniuse-db@1.0.20140816
+737 silly lockFile 2984c872-caniuse-db-1-0-20140816 caniuse-db@1.0.20140816
+738 silly lockFile 81c85cdf-aniuse-db-1-0-20140727-0-2-0-0-0 caniuse-db@>=1.0.20140727-0 <2.0.0-0
+739 silly lockFile 81c85cdf-aniuse-db-1-0-20140727-0-2-0-0-0 caniuse-db@>=1.0.20140727-0 <2.0.0-0
+740 verbose about to build /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/autoprefixer
+741 verbose node_modules/grunt-autoprefixer/node_modules/autoprefixer unbuild
+742 info preuninstall autoprefixer@2.2.0
+743 info uninstall autoprefixer@2.2.0
+744 verbose false,/Users/kdesai/LifeLetters/LL-webfront/node_modules,/Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules unbuild autoprefixer@2.2.0
+745 verbose /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/.bin,[object Object] binRoot
+746 verbose gentlyRm verifying that /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/autoprefixer is managed by npm
+747 silly cacheAndTest /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/autoprefixer is inside /Users/kdesai/LifeLetters/LL-webfront/node_modules
+748 silly gentlyRm /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/autoprefixer is managed by npm
+749 silly gentlyRm /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/.bin/autoprefixer is not under /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/autoprefixer
+750 silly gentlyRm checking to see if /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/.bin/autoprefixer is a link
+751 info postuninstall autoprefixer@2.2.0
+752 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/autoprefixer
+753 silly gentlyRm purging /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules/autoprefixer
+754 silly gentlyRm quitting because other entries in /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer/node_modules
+755 verbose about to build /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer
+756 verbose node_modules/grunt-autoprefixer unbuild
+757 info preuninstall grunt-autoprefixer@1.0.0
+758 info uninstall grunt-autoprefixer@1.0.0
+759 verbose true,/Users/kdesai/LifeLetters/LL-webfront/node_modules,/Users/kdesai/LifeLetters/LL-webfront/node_modules unbuild grunt-autoprefixer@1.0.0
+760 info postuninstall grunt-autoprefixer@1.0.0
+761 verbose gentlyRm vacuuming /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer
+762 silly gentlyRm purging /Users/kdesai/LifeLetters/LL-webfront/node_modules/grunt-autoprefixer
+763 silly gentlyRm quitting because other entries in /Users/kdesai/LifeLetters/LL-webfront/node_modules
+764 error Error: shasum check failed for /var/folders/qr/2m_f0hkn0ls1_g2713bcq3kr0000gp/T/npm-38576-j1pO-SYa/registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.20140816.tgz
+764 error Expected: fe31a769dc6cee60574b4819ef0b7b48778aaabc
+764 error Actual:   fd23089577bacd8bdc21cfc45a61d1dfdad9bdc5
+764 error From:     https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.20140816.tgz
+764 error     at /usr/local/lib/node_modules/npm/node_modules/sha/index.js:38:8
+764 error     at ReadStream.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/sha/index.js:85:7)
+764 error     at ReadStream.EventEmitter.emit (events.js:117:20)
+764 error     at _stream_readable.js:920:16
+764 error     at process._tickCallback (node.js:415:13)
+765 error If you need help, you may report this *entire* log,
+765 error including the npm and node versions, at:
+765 error     <http://github.com/npm/npm/issues>
+766 error System Darwin 13.3.0
+767 error command "node" "/usr/local/bin/npm" "install" "grunt-autoprefixer" "--save-dev"
+768 error cwd /Users/kdesai/LifeLetters/LL-webfront
+769 error node -v v0.10.26
+770 error npm -v 2.0.0-alpha-5
+771 verbose exit [ 1, true ]
