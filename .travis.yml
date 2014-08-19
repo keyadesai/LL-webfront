@@ -12,3 +12,7 @@ before_script:
 script:
   - karma start config/karma.conf.js --no-auto-watch --single-run --reporters=dots --browsers=Firefox
   - karma start config/karma-e2e.conf.js --reporters=dots --browsers=Firefox
+
+deploy:
+  provider: heroku
+  api_key: "8c23e9d6-bfe3-4eb3-b22f-604d65f9dcb8"
